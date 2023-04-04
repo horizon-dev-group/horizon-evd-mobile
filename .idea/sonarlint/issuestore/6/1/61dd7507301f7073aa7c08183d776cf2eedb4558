@@ -1,0 +1,38 @@
+
+M
+java:S1144"1Remove this unused private "prepareTable" method.(ŸïÁÍûÿÿÿÿ
+K
+java:S2696X"6Make the enclosing method "static" or remove this set.(Ä°¸Y
+R	java:S125š"<This block of commented-out lines of code should be removed.(®ì¼æ
+n
+java:S2637q"XThis method's return value is marked "androidx.annotation.NonNull" but null is returned.(¥¹ï
+7	java:S131v""Add a default case to this switch.(çãÑÓ
+C
+java:S1199W"-Extract this nested code block into a method.(öÀï»
+R	java:S125Â"<This block of commented-out lines of code should be removed.(ŸøÙ
+Q	java:S125T"<This block of commented-out lines of code should be removed.(Ìöèó
+C
+java:S1199`"-Extract this nested code block into a method.(©¬èì
+L
+java:S2696k"6Make the enclosing method "static" or remove this set.(ø’÷Ô
+C
+java:S1199j"-Extract this nested code block into a method.(õ¶ïğ
+—
+java:S1186õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨Úğ7
+R	java:S125¿"<This block of commented-out lines of code should be removed.(èŸö…
+T
+java:S1144õ">Remove this unused private "initMainMenuEventHandlers" method.(¨Úğ7
+<
+java:S30109"&Remove this assignment of "spanCount".(æÂÇê
+R	java:S125†"<This block of commented-out lines of code should be removed.(Ò®ïª
+W	java:S125ş"<This block of commented-out lines of code should be removed.(ÚÂı‚şÿÿÿÿ
+L
+java:S2696a"6Make the enclosing method "static" or remove this set.(­£±¥
+w
+java:S1450"\Remove the "mTableAdapter" field and declare it as a local variable in the relevant methods.(ÃŸøğúÿÿÿÿ
+W	java:S125›"<This block of commented-out lines of code should be removed.(ÍĞ­×ıÿÿÿÿ
+<	java:S131V""Add a default case to this switch.(ÿ¶°Øüÿÿÿÿ
+M
+java:S2696‘"6Make the enclosing method "static" or remove this set.(ÒŠí¦
+R
+java:S2696’"6Make the enclosing method "static" or remove this set.(—”—Âüÿÿÿÿ

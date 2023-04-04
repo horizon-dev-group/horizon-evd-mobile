@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/toggleGraphView"
+        android:icon="@drawable/ic_graph_svgrepo_com"
+        android:title="Toggle Graph View" />
+    <item
+        android:id="@+id/hide0Values"
+        android:icon="@drawable/ic_eye_show_svgrepo_com"
+        android:title="Show 0 Values" />
+    <item
+        android:id="@+id/showChartValue"
+        android:icon="@drawable/ic_chart_svgrepo_com"
+        android:title="Toggle Chart Values" />
+</menu>

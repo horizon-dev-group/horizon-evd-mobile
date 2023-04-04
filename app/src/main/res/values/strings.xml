@@ -1,0 +1,363 @@
+<resources>
+    <!--region App Level Strings-->
+    <string name="app_name" translatable="false">Fibath EVD</string>
+    <string name="app_level_full_name">Full Name</string>
+    <string name="screen_text_to">To</string>
+    <string name="screen_text_from">From</string>
+    <string name="screen_text_your_trip">Your Trip</string>
+    <string name="screen_text_departure_date">Departure Date</string>
+    <string name="screen_text_departure_time">Departure Time</string>
+    <string name="screen_text_departure_date_value">DD/MM/YYYY</string>
+    <string name="screen_text_departure_time_value">HOUR</string>
+
+    <!--endregion-->
+
+    <!--region App Intro-->
+    <string name="app_intro_slide_1_title">Fibath EVD</string>
+    <string name="app_intro_slide_1_description">The fastest and secure electronic voucher distribution in Ethiopia.</string>
+
+    <string name="app_intro_slide_2_title">Fast</string>
+    <string name="app_intro_slide_2_description">Fibath EVD is super fast. In fact faster than any other EVD app.</string>
+
+    <string name="app_intro_slide_3_title">Powerful</string>
+    <string name="app_intro_slide_3_description">Fibath EVD has lots and lots of cool features that help you be more productive.</string>
+
+    <string name="app_intro_slide_4_title">Secure</string>
+    <string name="app_intro_slide_4_description">Fibath EVD keeps you safe from malicious attacks. Yes! you don\'t have to worry about security!</string>
+
+    <string name="app_intro_slide_5_title">Multiple Languages</string>
+    <string name="app_intro_slide_5_description">Fibath EVD supports different languages and cultures so you can use it in your own language!</string>
+
+    <!--endregion-->
+
+    <!--region Drawer-->
+    <string name="drawer_side_menu_dashboard_title">Dashboard</string>
+    <string name="drawer_side_menu_my_account_title">My Account</string>
+    <string name="drawer_side_menu_transactions_title">Transactions</string>
+    <string name="drawer_side_menu_vouchers_title">Funds</string>
+    <string name="drawer_side_menu_settings_title">Settings</string>
+    <string name="drawer_side_menu_logout_title">Logout</string>
+    <string name="drawer_side_menu_bank_title">Downloads</string>
+    <!--endregion-->
+
+    <!--region Login Screen-->
+    <string name="login_screen_copyright_notice">Powered By Horizontech™ COPYRIGHT © Horizontech™ 2020</string>
+    <string name="login_screen_app_title">F\u0020\u0020\u0020\u0020I\u0020\u0020\u0020\u0020B\u0020\u0020\u0020\u0020A\u0020\u0020\u0020\u0020T\u0020\u0020\u0020\u0020H</string>
+    <string name="login_screen_motto">E\u0020\u0020\u0020\u0020V\u0020\u0020\u0020\u0020D</string>
+
+    <string name="login_screen_input_login_instruction">Enter your credentials to login.</string>
+    <string name="login_screen_input_user_id_hint">User ID/Mobile Number</string>
+    <string name="login_screen_input_password_hint">Password</string>
+    <string name="login_screen_btn_login">Login</string>
+    <!--endregion-->
+
+    <!--region Home Screen-->
+    <string name="home_screen_logo_text">Fibath</string>
+    <string name="home_screen_side_bar_info">Fibath Approved Agent</string>
+
+    <string name="home_screen_dashboard_menu_item_voucher">Voucher</string>
+    <string name="home_screen_dashboard_menu_item_voucher_description">Voucher Sales</string>
+
+    <string name="home_screen_dashboard_menu_item_topup">Topup</string>
+    <string name="home_screen_dashboard_menu_item_topup_description">Mobile Topup</string>
+
+    <string name="home_screen_dashboard_menu_item_electricity_bill">Funds</string>
+    <string name="home_screen_dashboard_menu_item_electricity_bill_description">Your Funds</string>
+
+    <string name="home_screen_dashboard_menu_item_water_bill">Transactions</string>
+    <string name="home_screen_dashboard_menu_item_water_bill_description">Voucher Transaction</string>
+
+    <string name="home_screen_dashboard_menu_item_activity">Settings</string>
+    <string name="home_screen_dashboard_menu_item_activity_description">Your  Setting</string>
+
+    <string name="home_screen_dashboard_menu_item_withdraw">Activity</string>
+    <string name="home_screen_dashboard_menu_item_withdraw_description">Your Activity</string>
+    <!--endregion-->
+
+    <!--region e voucher Screen-->
+    <string name="e_voucher_screen_text_balance">Balance</string>
+    <string name="e_voucher_screen_text_balance_price">270</string>
+    <string name="e_voucher_screen_text_balance_currency">B i r r</string>
+    <string name="e_voucher_screen_text_cards">Cards</string>
+    <string name="e_voucher_screen_text_five">5</string>
+    <string name="e_voucher_screen_text_two_hundred_fifty">250</string>
+    <string name="e_voucher_screen_text_ten">10</string>
+    <string name="e_voucher_screen_text_fifteen">15</string>
+    <string name="e_voucher_screen_text_twenty_five">25</string>
+    <string name="e_voucher_screen_text_fifty">50</string>
+    <string name="e_voucher_screen_text_hundred">100</string>
+    <string name="e_voucher_screen_text_five_hundred">500</string>
+    <string name="e_voucher_screen_text_one_thousand">1000</string>
+    <string name="e_voucher_screen_text_button_plus">+</string>
+    <string name="e_voucher_screen_text_button_minus">-</string>
+
+    <string name="e_voucher_screen_text_summary">Summary</string>
+    <string name="e_voucher_screen_text_quantity">Quantity</string>
+    <string name="e_voucher_screen_text_sub_total">Sub Total</string>
+    <string name="e_voucher_screen_text_button_proceed">Proceed</string>
+    <string name="e_voucher_screen_text_total">Total :</string>
+
+    <!--endregion-->
+
+    <!--region voucher_checkout Screen-->
+    <string name="checkout_screen_text_card">Card</string>
+    <string name="checkout_screen_text_vouchers">Vouchers</string>
+    <!--endregion-->
+    <!--region voucher_checkout Alert Dialog-->
+    <!--endregion-->
+
+    <!--region bus_ticket Screen -->
+    <string name="bus_ticket_screen_text_bus_ticket">Bus Ticket</string>
+    <string name="bus_ticket_screen_text_bus_transport_provider">Transport Provider</string>
+    <string name="bus_ticket_screen_text_bus_transport_provider_value">Select Transport Provider</string>
+    <string name="bus_ticket_screen_text_bus__bus_number">Bus Number</string>
+    <string name="bus_ticket_screen_text_bus__bus_number_value">No  / Plate No</string>
+
+    <!--endregion-->
+
+    <!--region train_ticket Screen -->
+    <string name="tarin_ticket_screen_text_train_ticket">Train Ticket</string>
+    <string name="tarin_ticket_screen_text_train_trip_type">Trip Type</string>
+    <string name="train_ticket_screen_text_train_train_number">Train Number</string>
+    <string name="train_ticket_screen_text_train_train_number_value">Train No</string>
+    <!--endregion-->
+
+    <!--region transaction_history_item_layout-->
+    <string name="transaction_history_item_layout_text_status_success">Success</string>
+    <string name="transaction_history_item_layout_text_transac_main_type_VoucherSale">VoucherSale</string>
+    <string name="transaction_history_item_layout_text_credit_plus">Credited</string>
+    <!--endregion-->
+
+    <!--region New Home-->
+    <string name="home_bottom_nav_1">Cards</string>
+    <string name="home_bottom_nav_2">Agents</string>
+    <string name="home_bottom_nav_3">Transfers</string>
+    <string name="home_bottom_nav_4">Reports</string>
+    <!--endregion-->
+
+    <!--region Common-->
+    <string name="coming_soon">Coming Soon!</string>
+    <string name="default_currency">Birr</string>
+    <string name="default_currency_short">Br.</string>
+    <string name="current_balance">CURRENT BALANCE</string>
+    <string name="updating_balance">UPDATING BALANCE</string>
+    <string name="balance_updated">BALANCE UPDATED</string>
+    <string name="unable_to_update_balance_upper">UNABLE TO UPDATE BALANCE</string>
+    <string name="unable_to_get_balance">Unable to get balance.</string>
+    <string name="dialog_success">Success!</string>
+    <string name="dialog_confirmation">Confirmation</string>
+    <string name="dialog_warning">Warning</string>
+    <string name="dialog_error">Error</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_okay">Okay</string>
+    <string name="dialog_create">Create</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_update">Update</string>
+    <string name="enter_valid_number">Please enter a valid number</string>
+    <string name="someting_went_worong">Something Went Wrong</string>
+    <string name="unable_to_update">Unable to Update.</string>
+    <string name="server_error">Server Error</string>
+    <string name="server_error_long">Server Error! Please contact the system administrators.</string>
+    <!--endregion-->
+
+    <!--region Bluetooth Related-->
+    <string name="network_connected">CONNECTED</string>
+    <string name="network_offline">OFFLINE</string>
+
+    <string name="bluetooth_prinet_not_supported">DOES NOT SUPPORT BLUETOOTH PRINTER</string>
+    <string name="turn_on_bluetooth">TURN ON BLUETOOTH</string>
+    <string name="bluetooth_off">BLUETOOTH OFF</string>
+    <string name="bluetooth_printer_connected">PRINTER CONNECTED</string>
+    <string name="bluetooth_printer_disconnected">PRINTER DISCONNECTED</string>
+    <string name="select_bluetooth_device">Select Bluetooth Device</string>
+    <string name="select_printer">Select Printer</string>
+    <string name="select_printer_upper">SELECT PRINTER</string>
+    <string name="currently_printing">Printing</string>
+    <string name="unable_to_connect_to_printer">Unable to connect to printer</string>
+    <string name="check_bluetooth_connection">Please Check You Bluetooth Connection</string>
+    <string name="broken_connection">Please Check You Bluetooth Connection</string>
+    <string name="connect_device">Please Check You Bluetooth Connection</string>
+    <string name="already_selected_printer">You have already selected printer</string>
+    <string name="connected_to_printer">Connected to printer %1$s</string>
+    <string name="connected_to_printer_capital">PRINTER CONNECTED: %1$s</string>
+    <string name="connected_to_printer_title">Connected to %1$s</string>
+    <string name="no_device_connected">No Device Connected</string>
+    <string name="connected_to_printer_desc">You have already selected and connected to %1$s printer.</string>
+    <string name="does_not_support_bt">Your device doesn\'t support bluetooth.</string>
+    <string name="turn_on_bluetooth_first">Please turn on bluetooth first.</string>
+    <!--endregion-->
+
+    <!--    region Vouchers Page-->
+    <string name="five_birr_voucher">5 Birr</string>
+    <string name="ten_birr_voucher">10 Birr</string>
+    <string name="fifteen_birr_voucher">15 Birr</string>
+    <string name="twentyfive_birr_voucher">25 Birr</string>
+    <string name="fifty_birr_voucher">50 Birr</string>
+    <string name="hunderd_birr_voucher">100 Birr</string>
+    <string name="twohundredfifty_birr_voucher">250 Birr</string>
+    <string name="fivehundred_birr_voucher">500 Birr</string>
+    <string name="thousand_birr_voucher">1000 Birr</string>
+
+    <string name="voucher_selected">Voucher Selected</string>
+    <string name="vouchers_selected">Vouchers Selected</string>
+
+    <string name="print_warning_1">Do you really want to print %1$s vouchers?</string>
+    <string name="printing_vouchers">Printing %1$s Vouchers</string>
+    <string name="no_vouchers">No Vouchers</string>
+
+    <string name="vouchers_overprint_warning_250">Do you really want to print 250 Birr Card?</string>
+    <string name="vouchers_overprint_warning_500">Do you really want to print 500 Birr Card?</string>
+    <string name="vouchers_overprint_warning_1000">Do you really want to print 1000 Birr Card?</string>
+
+    <string name="amount_should_not_be_empty">Amount should not be Empty</string>
+    <string name="amount_should_not_exceed">Amount should not Exceed 500 or be 0</string>
+
+    <string name="airtime">Airtime</string>
+    <string name="send_airtime">Send Airtime</string>
+    <string name="airtime_limit_is_1">Amount should  be 1 For Airtime</string>
+    <string name="please_select_printer_and_quantitiy">Please Select Printer and Quantity In Order To Proceed</string>
+    <string name="print_quantity">Quantity</string>
+    <string name="print">Print</string>
+    <string name="download">Download</string>
+
+    <!--    endregion-->
+
+    <!--***** region MY AGENTS *****-->
+    <string name="my_agnets_page_title">My Agents</string>
+    <string name="my_agnets_agents">Agents</string>
+    <string name="my_agnets_total_users">TOTAL USERS</string>
+    <string name="my_agnets_name_required">Name is required and has to be at least 4 characters.</string>
+    <string name="my_agnets_enter_valid_phone">Please Enter Valid Phone Number.</string>
+    <string name="my_agnets_enter_valid_password">Please Enter Valid Password.</string>
+    <string name="my_agnets_enter_valid_password_length">Password Character Length Should Not Be Less Than 4.</string>
+    <string name="my_agnets_password_should_match">Confirm Password Should Match Password.</string>
+    <string name="my_agnets_you_dont_have_agents">You Don\'t Have Any Agents.</string>
+    <string name="my_agnets_agent_registered">Agent Successfully Registered.</string>
+    <string name="my_agnets_user_exists">User already exists.</string>
+    <string name="my_agents_agents_with_zero_balance">Agents with Zero Balance: 3</string>
+    <string name="my_agents_actively_selling">Actively Selling Agents: 0</string>
+    <string name="my_agents_create_new_agent_title">Create New Agent</string>
+    <string name="my_agents_create_new_agent_description">Enter agent name, phone, email and password</string>
+    <string name="my_agents_full_name">Agent full name</string>
+    <string name="my_agents_phone">Phone</string>
+    <string name="my_agents_password">Password</string>
+    <string name="my_agents_confirm_password">Confirm Password</string>
+    <string name="my_agents_search_hint">Search</string>
+
+    <string name="my_agents_agent_list_registered_on">Registered On:</string>
+
+    <string name="my_agents_update_agent_title">Update Agent</string>
+    <string name="my_agents_update_agent_description">Enter agent name, phone in order to update.</string>
+    <string name="my_agents_successfully_updated">Agent Successfully Updated!</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Money Transfer *****-->
+    <string name="dialog_money_transfer_title">Transfer Balance</string>
+    <string name="dialog_money_transfer_description">Enter transfer amount and commission amount.</string>
+    <string name="dialog_money_transfer_amount">Transfer Amount</string>
+    <string name="dialog_money_transfer_commission">Commission % (Optional)</string>
+    <string name="dialog_money_transfer_transfer">Transfer</string>
+    <string name="dialog_money_transfer_success">You have successfully transferred %1$s birr.</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Fund Deduction *****-->
+    <string name="fund_deduction_successful">Transfer deduction was successful.</string>
+    <string name="fund_deduction_unable_to_deduct">Unable to deduct. User has insufficient balance.</string>
+    <!--***** endregion *****-->
+
+    <!--***** region User Profile *****-->
+    <string name="user_profile_title">Profile</string>
+    <string name="user_profile_account_balance">Account Balance</string>
+    <string name="user_profile_phone_number">Phone Number</string>
+    <string name="user_profile_transfers">TRANSFERS</string>
+    <string name="user_profile_transaction_history">Transaction History</string>
+    <string name="user_profile_more">MORE</string>
+    <string name="user_profile_total_transaction">Total Transaction:</string>
+    <string name="user_profile_no_transaction">You Don\'t Have Any Transaction:</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Revert Transaction *****-->
+    <string name="revert_transaction_title">Revert Transaction</string>
+    <string name="revert_transaction_description">Enter amount to revert from this transaction.</string>
+    <string name="revert_transaction_max_deductable">Max Deductible</string>
+    <string name="revert_transaction_user_balance">User\'s Balance</string>
+    <string name="revert_transaction_amount_to_deduct">Amount to deduct</string>
+    <string name="revert_transaction_deduct">Deduct</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Fund Transaction History *****-->
+    <string name="fund_transaction_sent_today_empty">Sent Today: -</string>
+    <string name="fund_transaction_sent_today_value">Sent Today: %1$s Br.</string>
+    <string name="fund_transaction_received_today_empty">Received Today: -</string>
+    <string name="fund_transaction_received_today_value">Received Today: %1$s Br.</string>
+    <string name="fund_transaction_received">Received</string>
+    <string name="fund_transaction_sent">Sent</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Transaction Item *****-->
+    <string name="transaction_item_date">Date: %1$s</string>
+    <string name="transaction_item_deducted_by_you">Deducted By: %1$s (You)</string>
+    <string name="transaction_item_deducted_by">Deducted By: %1$s</string>
+    <string name="transaction_item_amount_deducted">%1$s Br. Deducted</string>
+
+    <string name="transaction_item_positive_amount">+ %1$s Br.</string>
+    <string name="transaction_item_nagative_amount">- %1$s Br.</string>
+
+    <string name="transaction_item_sent_to">Sent To: %1$s</string>
+    <string name="transaction_item_received_from">Received From: %1$s</string>
+    <string name="transaction_item_deductable">Deductible: %1$s</string>
+    <string name="transaction_item_deduction_successful_item">Transfer deduction was successful.</string>
+    <string name="transaction_item_deduction_cant_deduct">You can\'t deduct. Your deduct amount should not exceed the transaction amount.</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Fund Request *****-->
+    <string name="fund_request_total_upper">TOTAL FUND REQUEST</string>
+    <string name="fund_request_total_lower">Total Fund Requests: 0</string>
+    <string name="fund_request_approved">Approved Fund Requests: 0</string>
+
+    <string name="dialog_fund_request_title">Fund Request</string>
+    <string name="dialog_fund_request_description">Enter all the necessary details to request fund.</string>
+    <string name="dialog_fund_request_request_amount">Request Amount</string>
+    <string name="dialog_fund_request_bank_name">Bank Name</string>
+    <string name="dialog_fund_request_transaction_reference_no">Transaction Reference No.</string>
+    <string name="dialog_fund_request_crv_no">CRV No.</string>
+    <string name="dialog_fund_request_remark">Remark</string>
+    <string name="dialog_fund_request_request">Request</string>
+
+    <string name="dialog_fund_request_sent_title">Fund Request Sent!</string>
+    <string name="dialog_fund_request_sent">Fund Request Successfully Sent</string>
+    <string name="dialog_fund_request_unable_to_create_request">Unable to create fund request.</string>
+    <string name="dialog_fund_request_you_dont_have_any_requests">You Don\'t Have Any Requests</string>
+    <string name="dialog_fund_option_bank">Bank</string>
+    <string name="dialog_fund_option_cash">Cash</string>
+    <string name="dialog_fund_amount_cannot_be_negative">Amount cannot be a negative number.</string>
+    <string name="dialog_fund_amount_cannot_exceed_25000000">Amount cannot exceed 25,000,00 Br.</string>
+    <string name="dialog_fund_amount_cannot_be_empty">Bank Name cannot be empty.</string>
+    <string name="dialog_fund_trans_ref_num_has_to_be_3_chars">Transaction Reference Number has to be at least 3 characters long.</string>
+    <string name="dialog_fund_crv_num_has_to_be_3_chars">CRV Number has to be at least 3 characters long.</string>
+    <string name="dialog_fund_remark_has_to_be_5_chars">Remark has to be at least 5 characters long.</string>
+
+    <string name="fund_request_sent_from_to">Sent From: %1$s To Sales</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Setting *****-->
+    <string name="setting_title">Settings</string>
+    <string name="setting_restart_to_see_change">Please Restart the app to see the language change.</string>
+    <string name="setting_enter_new_password">New Password</string>
+    <string name="setting_home_page">Home Page</string>
+    <string name="setting_easy_home_page">Easy Home Page</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_pick_language">Pick Your Language</string>
+    <string name="setting_printer">Printer</string>
+    <string name="setting_large_printer">Large Printer</string>
+    <string name="setting_large_printer_desc">If your printer is large enable this option.</string>
+    <string name="setting_bluetooth_device">Enable Bluetooth Device</string>
+    <string name="setting_bluetooth_device_desc">If you use a bluetooth printer enable this option.</string>
+    <string name="setting_fund_transactions">Fund Transactions</string>
+    <string name="setting_show_deducted_transactions">Show Deducted Transactions</string>
+    <string name="setting_show_deducted_transactions_desc">If you want to see deducted transactions enable this option.</string>
+    <string name="setting_change_password">Change Password</string>
+    <string name="setting_old_password">Old Password</string>
+    <!--***** endregion *****-->
+</resources>

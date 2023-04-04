@@ -1,0 +1,31 @@
+
+[
+java:S1192S"FDefine a constant instead of duplicating this literal "UTF-8" 8 times.(«ÙÉ$
+\	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(«œ
+\	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(¥Òîš
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ŞÖ³õøÿÿÿÿ
+\	java:S112£"FDefine and throw a dedicated exception instead of using a generic one.(èŒï
+7
+java:S16597"!Declare "_iv" on a separate line.(¢ë÷
+c	java:S1164"NRename this field "_cx" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ·³¹
+d	java:S1167"ORename this field "_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ë÷
+c	java:S1167"NRename this field "_iv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ë÷
+9
+java:S5542;"#Use secure mode and padding scheme.(©àèŠ
+N
+java:S4719S"9Replace charset name argument with StandardCharsets.UTF_8(«ÙÉ$
+T
+java:S4719U"9Replace charset name argument with StandardCharsets.UTF_8(ÊÁ›Äÿÿÿÿÿ
+O
+java:S4719X"9Replace charset name argument with StandardCharsets.UTF_8(»ú‰ø
+T
+java:S4719Z"9Replace charset name argument with StandardCharsets.UTF_8(·ïúüÿÿÿÿ
+O
+java:S4719]"9Replace charset name argument with StandardCharsets.UTF_8(š¸àã
+O
+java:S4719^"9Replace charset name argument with StandardCharsets.UTF_8(½ëíØ
+T
+java:S4719j"9Replace charset name argument with StandardCharsets.UTF_8(Ñ°ùòøÿÿÿÿ
+c	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëç¬½
+U
+java:S4719€"9Replace charset name argument with StandardCharsets.UTF_8(üªÙ«ùÿÿÿÿ

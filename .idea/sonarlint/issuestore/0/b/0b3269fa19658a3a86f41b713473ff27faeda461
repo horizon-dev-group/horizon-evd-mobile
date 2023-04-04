@@ -1,0 +1,67 @@
+
+^	java:S125Œ"<This block of commented-out lines of code should be removed.(‚ê‘øÿÿÿÿ8¡“åîö.
+g
+java:S1124'"EReorder the modifiers to comply with the Java Language Specification.(õŒòûÿÿÿÿ8¡“åîö.
+g
+java:S1301º"KReplace this "switch" statement by "if" statements to increase readability.(Õ©à½ûÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ì§
+[
+java:S1197¹"8Move the array designator from the variable to the type.(ÿÃ²şÿÿÿÿ8¡“åîö.
+g
+java:S1301Ö"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
+b
+java:S1124+"EReorder the modifiers to comply with the Java Language Specification.(Ü¬úå8¡“åîö.
+Y
+java:S2696›"6Make the enclosing method "static" or remove this set.(ë…âûÿÿÿÿ8¡“åîö.
+T
+java:S2696 "6Make the enclosing method "static" or remove this set.(ÜŞ§8¡“åîö.
+D	java:S131Ö""Add a default case to this switch.(øå´¡ÿÿÿÿÿ8¡“åîö.
+Z
+java:S1155Á">Use isEmpty() to check whether the collection is empty or not.(“Ÿ‚±ûÿÿÿÿ
+I
+java:S1199»"-Extract this nested code block into a method.(àçö€ÿÿÿÿÿ
+G
+java:S1125Ä")Remove the literal "false" boolean value.(Á‡ñ§8¡“åîö.
+V	java:S110!"<This class has 6 parents which is greater than 5 authorized.(³åÓøÿÿÿÿÿ
+|
+java:S2293ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(éÎ¸şüÿÿÿÿ8¡“åîö.
+Y	java:S125"<This block of commented-out lines of code should be removed.(¼üÇ—8¡“åîö.
+D
+java:S1604"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(ÿ˜—‡8¡“åîö.
+D	java:S131º""Add a default case to this switch.(Õ©à½ûÿÿÿÿ8¡“åîö.
+?
+java:S1604‡"(Make this anonymous inner class a lambda(å•¢Ø
+g
+java:S1301º"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ
+b
+java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(ÄÉç¶8¡“åîö.
+Y
+java:S2696‚"6Make the enclosing method "static" or remove this set.(İîÙçøÿÿÿÿ8¡“åîö.
+D	java:S131º""Add a default case to this switch.(×ö³–úÿÿÿÿ8¡“åîö.
+b
+java:S1124&"EReorder the modifiers to comply with the Java Language Specification.(â«é¯8¡“åîö.
+T
+java:S2696•"6Make the enclosing method "static" or remove this set.(Úì£8¡“åîö.
+X
+java:S2696y"6Make the enclosing method "static" or remove this set.(ë…âûÿÿÿÿ8¡“åîö.
+i
+java:S3008""NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â£“úıÿÿÿÿ
+w
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ÜŞ§8¡“åîö.
+D
+java:S1604¬"(Make this anonymous inner class a lambda(æ«Êûÿÿÿÿ
+o
+java:S3776·"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(éçïq8¡“åîö.
+I
+java:S1068-",Remove this unused "SPP_UUID" private field.(©öÓ¤8¡“åîö.
+b
+java:S1124("EReorder the modifiers to comply with the Java Language Specification.(×ÿ°™8¡“åîö.
+a
+java:S11241"EReorder the modifiers to comply with the Java Language Specification.(«Ú›,8¡“åîö.
+]	java:S125/"<This block of commented-out lines of code should be removed.(Â®¶Ëùÿÿÿÿ8¡“åîö.
+Y
+java:S2696ã"6Make the enclosing method "static" or remove this set.(éÎ¸şüÿÿÿÿ8¡“åîö.
+Y
+java:S2696‰"6Make the enclosing method "static" or remove this set.(¹©£µúÿÿÿÿ8¡“åîö.

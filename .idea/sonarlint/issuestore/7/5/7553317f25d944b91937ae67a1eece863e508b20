@@ -1,0 +1,38 @@
+
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ
+N
+java:S1128"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ
+V	java:S125`"<This block of commented-out lines of code should be removed.(Õä™üÿÿÿÿ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ã¨†½øÿÿÿÿ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(Ğø¸°ıÿÿÿÿ
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(­ƒâ›
+Q	java:S125j"<This block of commented-out lines of code should be removed.(˜ëÑ
+C
+java:S1604]"(Make this anonymous inner class a lambda(Ûö·¦ûÿÿÿÿ
+V
+java:S1128"@Remove this unused import 'com.victor.loading.book.BookLoading'.(İ¡•Š
+W
+java:S1128"ARemove this unused import 'androidx.core.app.NotificationCompat'.(œéÔã
+D
+java:S1128+".Remove this unused import 'okhttp3.MediaType'.(¢¿ÜŠ
+Z
+java:S1128"DRemove this unused import 'com.example.highlightevd.ui.login.Login'.(×‘…¶
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ã¨†½øÿÿÿÿ
+L
+java:S1481q"0Remove this unused "requestBody" local variable.(¼‚¤"8 Å˜Öæ.
+X	java:S1102"<This class has 9 parents which is greater than 5 authorized.(ÅÔ§8í€ˆÑæ.
+>
+java:S1604V"(Make this anonymous inner class a lambda(»´–ğ
+K
+java:S1128,"0Remove this unused import 'okhttp3.RequestBody'.(ıÂÂöûÿÿÿÿ
+[
+java:S1854q"?Remove this useless assignment to local variable "requestBody".(¼‚¤"8 Å˜Öæ.
+K
+java:S1128"5Remove this unused import 'com.bumptech.glide.Glide'.(Ñˆ…Ë
+e
+java:S1128"JRemove this unused import 'com.victor.loading.newton.NewtonCradleLoading'.(–µŒıÿÿÿÿ
+`
+java:S1128">Remove this unused import 'android.content.pm.PackageManager'.(€®¥õÿÿÿÿÿ8Ù•Öæ.
+—
+java:S1186w"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤

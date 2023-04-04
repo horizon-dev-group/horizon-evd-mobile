@@ -1,0 +1,51 @@
+
+V
+java:S1874œ"3Remove this use of "getDrawable"; it is deprecated.(Äå¾áùÿÿÿÿ8Ç€ˆÑæ.
+b
+java:S1128%"LRemove this unused import 'com.example.highlightevd.ui.setting.UserSetting'.(ÍÇ–
+=	java:S131–""Add a default case to this switch.(ß¶úåÿÿÿÿÿ
+[
+java:S1874—"8Remove this use of "beginTransaction"; it is deprecated.(ğûÖÚøÿÿÿÿ8Ç€ˆÑæ.
+?
+java:S1185»"(Remove this method to simply inherit it.(Ù«µ§
+^
+java:S1874q"ARemove this use of "FragmentStatePagerAdapter"; it is deprecated.(É”à8Ç€ˆÑæ.
+H
+java:S1144–"1Remove this unused private "showFragment" method.(ïÚ®½
+W	java:S125Â"<This block of commented-out lines of code should be removed.(±ğÓ‰øÿÿÿÿ
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(¡È‡ğüÿÿÿÿ
+V
+java:S1874Ÿ"3Remove this use of "getDrawable"; it is deprecated.(ãŸÔ“üÿÿÿÿ8Ç€ˆÑæ.
+M
+java:S3740œ"/Provide the parametrized type for this generic.(³Ë8Öö«­ú.
+G
+java:S1874–"0Remove this use of "Fragment"; it is deprecated.(ïÚ®½
+Q	java:S125‘"<This block of commented-out lines of code should be removed.(«¸¥
+R	java:S125Ä"<This block of commented-out lines of code should be removed.(‰¢±•
+o	java:S115>"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”ºœä
+8	java:S131‡""Add a default case to this switch.(šçÌü
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(èû‹ç8Ä¤¥¬ú.
+Q
+java:S1874¢"3Remove this use of "getDrawable"; it is deprecated.(ºùÊ¹8Ç€ˆÑæ.
+X	java:S1102"<This class has 9 parents which is greater than 5 authorized.(Ó‰×˜8Ç€ˆÑæ.
+q
+java:S3923v"[Remove this conditional structure or edit its code blocks so that they're not all the same.(šçÌü
+R	java:S125È"<This block of commented-out lines of code should be removed.(ŞÎÂÚ
+Q
+java:S1874™"3Remove this use of "getDrawable"; it is deprecated.(ó—ÛĞ8Ç€ˆÑæ.
+R
+java:S1874˜"/Remove this use of "replace"; it is deprecated.(âËËĞøÿÿÿÿ8Ç€ˆÑæ.
+H
+java:S1135e"2Complete the task associated to this TODO comment.(ñ®Ö…
+R	java:S125‰"<This block of commented-out lines of code should be removed.(Ùÿ®ù
+S	java:S106u"9Replace this use of System.out or System.err by a logger.(Éé„Ñüÿÿÿÿ
+Q	java:S125g"<This block of commented-out lines of code should be removed.(ÊÀ¨Š
+Z
+java:S1128""DRemove this unused import 'com.example.highlightevd.ui.login.Login'.(×‘…¶
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(ûÏåüÿÿÿÿ
+]
+java:S1874—":Remove this use of "getFragmentManager"; it is deprecated.(ğûÖÚøÿÿÿÿ8Ç€ˆÑæ.
+R	java:S125½"<This block of commented-out lines of code should be removed.(Ç©£
+C
+java:S1602À",Remove useless curly braces around statement(¨Ï·÷
+Q	java:S125S"<This block of commented-out lines of code should be removed.(Ç©£

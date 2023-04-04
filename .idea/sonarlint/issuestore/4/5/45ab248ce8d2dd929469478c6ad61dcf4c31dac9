@@ -1,0 +1,23 @@
+
+R	java:S110"=This class has 10 parents which is greater than 5 authorized.(İŸ¶¯
+X
+java:S1128"BRemove this unused import 'com.example.highlightevd.ui.home.Home'.(í¨Œ»
+o
+java:S1128"YRemove this unused import 'com.karumi.dexter.listener.multi.MultiplePermissionsListener'.(’µ¥à
+q
+java:S1128"VRemove this unused import 'com.karumi.dexter.listener.PermissionRequestErrorListener'.(ÙôÂ­ıÿÿÿÿ
+[
+java:S1128"ERemove this unused import 'androidx.appcompat.app.AppCompatActivity'.(€¶£î
+R
+java:S1128"7Remove this unused import 'com.example.highlightevd.R'.(Ú¬ªäıÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'android.Manifest'.(¦øïúÿÿÿÿ
+c
+java:S1128"HRemove this unused import 'com.example.highlightevd.ui.sample.IPDialog'.(ìáÅøúÿÿÿÿ
+P
+java:S1128"5Remove this unused import 'com.karumi.dexter.Dexter'.(¼ÅÉûÿÿÿÿ
+Q	java:S125D"<This block of commented-out lines of code should be removed.(àäˆª
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(Êúı›üÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(æÒäûÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(éë‡×øÿÿÿÿ
+M	java:S106N"9Replace this use of System.out or System.err by a logger.(”ö¤3

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLightWhite"
+    android:paddingBottom="16dp">
+
+    <EditText
+        android:id="@+id/dialogAgentPassword"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/my_agents_password"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:password="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/dialogAgentPhone"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentPhone"
+        app:layout_constraintTop_toBottomOf="@+id/dialogAgentEmail" />
+
+    <EditText
+        android:id="@+id/dialogAgentConfirmPassword"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/my_agents_confirm_password"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:password="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/dialogAgentPassword"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentPassword"
+        app:layout_constraintTop_toBottomOf="@+id/dialogAgentPassword" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAgentPassword"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentPassword"
+        app:layout_constraintTop_toTopOf="@+id/dialogAgentPassword"
+        app:srcCompat="@drawable/ic_login_screen_password" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAgentConfirmPassword"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentConfirmPassword"
+        app:layout_constraintTop_toTopOf="@+id/dialogAgentConfirmPassword"
+        app:srcCompat="@drawable/ic_login_screen_password" />
+
+    <EditText
+        android:id="@+id/dialogAgentFullName"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/my_agents_full_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentDescription"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/createAgentDescription"
+        app:layout_constraintTop_toBottomOf="@+id/createAgentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_customer__1_" />
+
+    <EditText
+        android:id="@+id/dialogAgentPhone"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/my_agents_phone"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/dialogAgentFullName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentFullName"
+        app:layout_constraintTop_toBottomOf="@+id/dialogAgentFullName" />
+
+    <!--    <com.github.willena.phoneinputview.PhoneInputView-->
+    <!--        android:id="@+id/phoneId"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:background="@drawable/bg_light_white_rounded_dialog"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/dialogAgentPhone"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/dialogAgentPhone"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/dialogAgentPhone" />-->
+
+    <EditText
+        android:id="@+id/dialogAgentEmail"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentDescription"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/createAgentDescription"
+        app:layout_constraintTop_toBottomOf="@+id/dialogAgentPhone" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAgentFullName"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentFullName"
+        app:layout_constraintTop_toTopOf="@+id/dialogAgentFullName"
+        app:srcCompat="@drawable/ic_login_screen_customer" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAgentPhone"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentPhone"
+        app:layout_constraintTop_toTopOf="@+id/dialogAgentPhone"
+        app:srcCompat="@drawable/ic_phone" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAgentEmail"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentEmail"
+        app:layout_constraintTop_toTopOf="@+id/dialogAgentEmail"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/createAgentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/my_agents_create_new_agent_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/createAgentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/my_agents_create_new_agent_description"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentTitle"
+        app:layout_constraintStart_toStartOf="@+id/createAgentTitle"
+        app:layout_constraintTop_toBottomOf="@+id/createAgentTitle" />
+
+    <Button
+        android:id="@+id/dialogAgentCreateAgent"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/dialog_create"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/dialogAgentFullName"
+        app:layout_constraintTop_toBottomOf="@+id/dialogAgentConfirmPassword" />
+
+    <Button
+        android:id="@+id/dialogAgentCancel"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/dialog_cancel"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentFullName"
+        app:layout_constraintTop_toBottomOf="@+id/dialogAgentConfirmPassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

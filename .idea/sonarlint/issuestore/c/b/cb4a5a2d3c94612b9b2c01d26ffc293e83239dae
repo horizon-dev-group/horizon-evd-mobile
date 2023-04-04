@@ -1,0 +1,134 @@
+
+M
+java:S2093²"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8áŠşİ.
+V	java:S106‚"9Replace this use of System.out or System.err by a logger.(“†¤8áŠşİ.
+O
+java:S1068'"-Remove this unused "print_num" private field.( ™õ©ıÿÿÿÿ8áŠşİ.
+^	java:S125€"<This block of commented-out lines of code should be removed.(Š»Ÿ½üÿÿÿÿ8áŠşİ.
+l
+java:S2259ñ"IA "NullPointerException" could be thrown; "inputStream" is nullable here.(¶ò†Áşÿÿÿÿ8áŠşİ.
+X
+java:S2696T"6Make the enclosing method "static" or remove this set.(Ô¾¡ùÿÿÿÿ8áŠşİ.
+
+java:S1488Ê"\Immediately return this expression instead of assigning it to the temporary variable "type".(­‘¹Öşÿÿÿÿ8áŠşİ.
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ÿè ûÿÿÿÿ8áŠşİ.
+d
+java:S2259ò"AA "NullPointerException" could be thrown; "fos" is nullable here.(æŒÕ®ùÿÿÿÿ8áŠşİ.
+L
+java:S1128 "/Remove this unused import 'java.util.Calendar'.(ÿÛö´8Ÿ¡Ò”÷.
+M
+java:S2093›"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8áŠşİ.
+]
+java:S1854–"?Remove this useless assignment to local variable "originalPin".(âÎ 8áŠşİ.
+^	java:S125¤"<This block of commented-out lines of code should be removed.(ßø”Ëúÿÿÿÿ8áŠşİ.
+X
+java:S2696V"6Make the enclosing method "static" or remove this set.(ñíğ˜şÿÿÿÿ8áŠşİ.
+M
+java:S2093Í"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8áŠşİ.
+F	java:S108ÿ")Either remove or fill this block of code.(•ê¥‹8áŠşİ.
+Y	java:S125“"<This block of commented-out lines of code should be removed.(÷Á¥€8˜¡¿Ùü.
+^	java:S125»"<This block of commented-out lines of code should be removed.(¯ï€ùÿÿÿÿ8Á¸Ùü.
+N
+java:S1481–"0Remove this unused "originalPin" local variable.(âÎ 8áŠşİ.
+e
+java:S1874/"CRemove this use of "getExternalStorageDirectory"; it is deprecated.(¾àûÿÿÿÿ8áŠşİ.
+]
+java:S1854ø":Remove this useless assignment to local variable "bitmap".(«Ñ”­şÿÿÿÿ8áŠşİ.
+^	java:S125Ã"<This block of commented-out lines of code should be removed.(ßø”Ëúÿÿÿÿ8áŠşİ.
+Y	java:S110&"=This class has 10 parents which is greater than 5 authorized.(Õì¤8áŠşİ.
+V	java:S106½"9Replace this use of System.out or System.err by a logger.(êŸÂº8áŠşİ.
+^	java:S125‚"<This block of commented-out lines of code should be removed.(Ş…”şÿÿÿÿ8áŠşİ.
+s
+java:S1450,"VRemove the "cardTen" field and declare it as a local variable in the relevant methods.(ò¨‰Õ8áŠşİ.
+u	java:S116'"TRename this field "print_num" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ™õ©ıÿÿÿÿ8áŠşİ.
+S
+java:S2696X"6Make the enclosing method "static" or remove this set.(ØÄ†8áŠşİ.
+O
+java:S1128""-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8—ÙÏ”÷.
+z	java:S1160"^Rename this field "back_button_printer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õº±®8áŠşİ.
+L
+java:S1144ä".Remove this unused private "printText" method.(ø¬Ç8áŠşİ.
+
+java:S1488Ã"\Immediately return this expression instead of assigning it to the temporary variable "type".(º…·÷øÿÿÿÿ8áŠşİ.
+t
+java:S1450,"WRemove the "cardFive" field and declare it as a local variable in the relevant methods.(ò¨‰Õ8áŠşİ.
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(Ì¬Ë©ùÿÿÿÿ8áŠşİ.
+N
+java:S1481ø"+Remove this unused "bitmap" local variable.(«Ñ”­şÿÿÿÿ8áŠşİ.
+w
+java:S1450,"ZRemove the "cardFifteen" field and declare it as a local variable in the relevant methods.(ò¨‰Õ8áŠşİ.
+x
+java:S1128"[Remove this unused import 'com.example.highlightevd.ui.Printer.telpo.v330.Telpo330Printer'.(‚ôºÊ8áŠşİ.
+R
+java:S2696U"6Make the enclosing method "static" or remove this set.(öĞœ+8áŠşİ.
+F	java:S108ı")Either remove or fill this block of code.(¯ úÈ8áŠşİ.
+^	java:S125Ñ"<This block of commented-out lines of code should be removed.(Š‘ñøÿÿÿÿ8áŠşİ.
+S
+java:S2696W"6Make the enclosing method "static" or remove this set.(’Ùû¨8áŠşİ.
+q
+java:S2095Ï"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ö“¯úÿÿÿÿ8áŠşİ.
+Y	java:S125ñ"<This block of commented-out lines of code should be removed.(©™Ù‡8áŠşİ.
+I
+java:S1481Ğ"+Remove this unused "intent" local variable.(å¯Ô«8áŠşİ.
+X
+java:S2696R"6Make the enclosing method "static" or remove this set.(µ–æıøÿÿÿÿ8áŠşİ.
+£
+java:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(äØ Æùÿÿÿÿ8¸ÕÁÃä.
+q
+java:S2095ç"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ØÙ¿ıÿÿÿÿ8áŠşİ.
+K
+java:S1068)"/Remove this unused "error_level" private field.(—ˆ28áŠşİ.
+Y	java:S125´"<This block of commented-out lines of code should be removed.(¹ŒŞŒ8“Ê­Õú.
+>	java:S131_""Add a default case to this switch.(«ù¹¬8áŠşİ.
+Y	java:S125İ"<This block of commented-out lines of code should be removed.(©™Ù‡8áŠşİ.
+R
+java:S1144’"/Remove this unused private "scaleImage" method.(Â›Ôşÿÿÿÿ8áŠşİ.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑÓÛ–8áŠşİ.
+L
+java:S2093f"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8áŠşİ.
+^	java:S125å"<This block of commented-out lines of code should be removed.(Š‘ñøÿÿÿÿ8áŠşİ.
+X
+java:S1854Ğ":Remove this useless assignment to local variable "intent".(å¯Ô«8áŠşİ.
+H
+java:S1068,"+Remove this unused "cardTen" private field.(ò¨‰Õ8áŠşİ.
+I
+java:S1068,",Remove this unused "cardFive" private field.(ò¨‰Õ8áŠşİ.
+Y	java:S125„"<This block of commented-out lines of code should be removed.(‰¶8áŠşİ.
+L
+java:S1068,"/Remove this unused "cardFifteen" private field.(ò¨‰Õ8áŠşİ.
+^	java:S125¹"<This block of commented-out lines of code should be removed.(«›§¿üÿÿÿÿ8Î¬­Ùü.
+^	java:S125ş"<This block of commented-out lines of code should be removed.(×Ö­’ÿÿÿÿÿ8áŠşİ.
+|
+java:S1192”"^Define a constant instead of duplicating this literal "horizon_ethiotelecom_logo.png" 3 times.(¡ˆƒ®8áŠşİ.
+X
+java:S2696S"6Make the enclosing method "static" or remove this set.(“íÈºıÿÿÿÿ8áŠşİ.
+q	java:S116("URename this field "print_size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Å©‚8áŠşİ.
+Y	java:S125§"<This block of commented-out lines of code should be removed.(¢€üÓ8áŠşİ.
+S
+java:S1144÷"0Remove this unused private "printQRCode" method.(¨´à øÿÿÿÿ8áŠşİ.
+‹
+java:S1192"hDefine a constant instead of duplicating this literal "i am in Ethiotelecom voucher pattern is" 4 times.(Ñş¨™üÿÿÿÿ8áŠşİ.
+M
+java:S2093å"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8áŠşİ.
+M
+java:S2093€"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8áŠşİ.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(Ñş¨™üÿÿÿÿ8áŠşİ.
+^	java:S125¥"<This block of commented-out lines of code should be removed.(Š»Ÿ½üÿÿÿÿ8áŠşİ.
+K
+java:S1068(".Remove this unused "print_size" private field.(¨Å©‚8áŠşİ.
+q	java:S116)"VRename this field "error_level" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ˆ28áŠşİ.
+}
+java:S1192•"_Define a constant instead of duplicating this literal "/horizon_ethiotelecom_logo.bmp" 3 times.(çºË®8áŠşİ.
+^	java:S125Æ"<This block of commented-out lines of code should be removed.(ÁöÒïùÿÿÿÿ8áŠşİ.
+B
+java:S1659,"%Declare "cardTen" on a separate line.(ò¨‰Õ8áŠşİ.
+F
+java:S1659,")Declare "cardFifteen" on a separate line.(ò¨‰Õ8áŠşİ.
+o
+java:S3776^"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(ÄëŸ±8áŠşİ.
+^	java:S125ù"<This block of commented-out lines of code should be removed.(æ±ß¡úÿÿÿÿ8áŠşİ.
+S
+java:S2696Y"6Make the enclosing method "static" or remove this set.(İšÒÂ8áŠşİ.
+[	java:S106 "9Replace this use of System.out or System.err by a logger.(òıòıÿÿÿÿ8áŠşİ.
+D
+java:S1604E"(Make this anonymous inner class a lambda(¿ú 8áŠşİ.

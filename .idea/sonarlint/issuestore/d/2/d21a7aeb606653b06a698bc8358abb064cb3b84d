@@ -1,0 +1,23 @@
+
+D
+java:S1659!")Declare "moreOptions" on a separate line.(ÌŒ˜Œùÿÿÿÿ
+V	java:S125["<This block of commented-out lines of code should be removed.(¡ÓŠ øÿÿÿÿ
+V	java:S125g"<This block of commented-out lines of code should be removed.(¥šù®ûÿÿÿÿ
+Q	java:S125m"<This block of commented-out lines of code should be removed.(ÅõÍÎ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(‡ÅÒ‰ÿÿÿÿÿ
+<	java:S131D""Add a default case to this switch.(Ìäàœúÿÿÿÿ
+9
+java:S1659 "#Declare "count" on a separate line.(„¢¼Í
+V	java:S125F"<This block of commented-out lines of code should be removed.(¡ÓŠ øÿÿÿÿ
+V	java:S125R"<This block of commented-out lines of code should be removed.(¥šù®ûÿÿÿÿ
+Q	java:S125X"<This block of commented-out lines of code should be removed.(ÅõÍÎ
+R	java:S125•"<This block of commented-out lines of code should be removed.(‚½×±
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(²—— üÿÿÿÿ
+Q	java:S125c"<This block of commented-out lines of code should be removed.(°êª³
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(²—— üÿÿÿÿ
+R	java:S125¡"<This block of commented-out lines of code should be removed.(‡‰¹
+V	java:S125U"<This block of commented-out lines of code should be removed.(”‰öùÿÿÿÿ
+V	java:S125j"<This block of commented-out lines of code should be removed.(”‰öùÿÿÿÿ
+Q	java:S125_"<This block of commented-out lines of code should be removed.(¹©ÿ¢
+q
+java:S1128"TRemove this unused import 'com.example.highlightevd.ui.electricity.ElectricityBill'.(ö‚Ü™8ÕªÐëö.

@@ -1,0 +1,41 @@
+
+H
+java:S1068"+Remove this unused "cardTen" private field.(ò¨‰Õ8Ô¥ŽÆ÷.
+B
+java:S1659"%Declare "cardTen" on a separate line.(ò¨‰Õ8Ô¥ŽÆ÷.
+P
+java:S1068".Remove this unused "expiryDate" private field.(„ž½ýýÿÿÿÿ8´¿˜Æ÷.
+g
+java:S1192!"JDefine a constant instead of duplicating this literal "printType" 3 times.(¡¸…æ8Ô¥ŽÆ÷.
+]	java:S110"<This class has 9 parents which is greater than 5 authorized.(Ž»ßªûÿÿÿÿ8Ô¥ŽÆ÷.
+~
+java:S1488:"\Immediately return this expression instead of assigning it to the temporary variable "type".(­‘¹Öþÿÿÿÿ8Ô¥ŽÆ÷.
+~
+java:S14883"\Immediately return this expression instead of assigning it to the temporary variable "type".(º…·÷øÿÿÿÿ8Ô¥ŽÆ÷.
+R
+java:S1068"0Remove this unused "serialNumber" private field.(„ž½ýýÿÿÿÿ8´¿˜Æ÷.
+I
+java:S1068",Remove this unused "cardFive" private field.(ò¨‰Õ8Ô¥ŽÆ÷.
+€
+java:S1128"^Remove this unused import 'com.example.highlightevd.ui.Printer.sunmi.v2.SunmiV2PrinterStatic'.(ó¯Àþùÿÿÿÿ8’¡ÝÆ÷.
+x	java:S116"\Rename this field "bluetooth_printer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À Œ¼8Ô¥ŽÆ÷.
+F
+java:S1659")Declare "cardFifteen" on a separate line.(ò¨‰Õ8Ô¥ŽÆ÷.
+L
+java:S1068"*Remove this unused "amount" private field.(„ž½ýýÿÿÿÿ8´¿˜Æ÷.
+J
+java:S1659"(Declare "expiryDate" on a separate line.(„ž½ýýÿÿÿÿ8Ô¥ŽÆ÷.
+O
+java:S1068"-Remove this unused "pinNumber" private field.(„ž½ýýÿÿÿÿ8´¿˜Æ÷.
+u	java:S116"YRename this field "device_printer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À Œ¼8Ô¥ŽÆ÷.
+~
+java:S1128"aRemove this unused import 'com.example.highlightevd.ui.Printer.bluetooth.BlueToothPrinterStatic'.(Çÿç·8öòÝÆ÷.
+L
+java:S1659"/Declare "bluetooth_printer" on a separate line.(À Œ¼8Ô¥ŽÆ÷.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Àýêùÿÿÿÿ
+I
+java:S1659"'Declare "pinNumber" on a separate line.(„ž½ýýÿÿÿÿ8Ô¥ŽÆ÷.
+L
+java:S1068"/Remove this unused "cardFifteen" private field.(ò¨‰Õ8Ô¥ŽÆ÷.
+L
+java:S1659"*Declare "serialNumber" on a separate line.(„ž½ýýÿÿÿÿ8Ô¥ŽÆ÷.

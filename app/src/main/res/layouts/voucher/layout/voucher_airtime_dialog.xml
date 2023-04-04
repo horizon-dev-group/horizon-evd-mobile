@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLightWhite"
+    android:paddingBottom="16dp">
+
+    <EditText
+        android:id="@+id/voucher_airtime_phone"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/login_screen_input_user_id_hint"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/error_dialog_description"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/error_dialog_description"
+        app:layout_constraintTop_toBottomOf="@+id/error_dialog_description" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/voucher_airtime_phone"
+        app:layout_constraintStart_toStartOf="@+id/voucher_airtime_phone"
+        app:layout_constraintTop_toTopOf="@+id/voucher_airtime_phone"
+        app:srcCompat="@drawable/ic_login_screen_customer" />
+
+    <TextView
+        android:id="@+id/error_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Phone Number"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/error_dialog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Enter phone number you want to send airtime."
+        app:layout_constraintEnd_toEndOf="@+id/error_dialog_title"
+        app:layout_constraintStart_toStartOf="@+id/error_dialog_title"
+        app:layout_constraintTop_toBottomOf="@+id/error_dialog_title" />
+
+    <Button
+        android:id="@+id/voucher_airtime_send_button"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Send Airtime"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/voucher_airtime_phone"
+        app:layout_constraintTop_toBottomOf="@+id/voucher_airtime_phone" />
+
+    <Button
+        android:id="@+id/voucher_airtime_cancel_button"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Cancel"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/voucher_airtime_phone"
+        app:layout_constraintTop_toBottomOf="@+id/voucher_airtime_phone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

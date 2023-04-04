@@ -1,0 +1,31 @@
+
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(ž›ÖÌüÿÿÿÿ
+?
+java:S1185â"(Remove this method to simply inherit it.(Ù«µ§
+W	java:S125¿"<This block of commented-out lines of code should be removed.(Ã«ùÿÿÿÿ
+V	java:S125="<This block of commented-out lines of code should be removed.(À§ÀÄýÿÿÿÿ
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(Îõ¦Š
+h
+java:S1128#"MRemove this unused import 'com.github.paolorotolo.appintro.model.SliderPage'.(•µöñúÿÿÿÿ
+u	java:S1165"`Rename this field "result_user_available" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØŸ†
+?
+java:S1185Ü"(Remove this method to simply inherit it.(ªÍë•
+C
+java:S1604f"(Make this anonymous inner class a lambda(› »¾ùÿÿÿÿ
+D
+java:S1604"(Make this anonymous inner class a lambda(çÄÝöøÿÿÿÿ
+Q	java:S125þ"<This block of commented-out lines of code should be removed.(ÏŒëi
+>
+java:S1604z"(Make this anonymous inner class a lambda(ù–‚ó
+h
+java:S1128""MRemove this unused import 'com.github.paolorotolo.appintro.AppIntroFragment'.(”ë½“ûÿÿÿÿ
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(ÕÚØ¡ýÿÿÿÿ
+R	java:S1103"=This class has 11 parents which is greater than 5 authorized.(¤æÊ¸
+„
+java:S1128"iRemove this unused import 'com.example.highlightevd.classes.networking.Internet.CheckInternetConnection'.(Ú¦þ†øÿÿÿÿ
+O	java:S106¦"9Replace this use of System.out or System.err by a logger.(ˆùŒž
+R	java:S125š"<This block of commented-out lines of code should be removed.(ŠíæÂ
+R	java:S125¸"<This block of commented-out lines of code should be removed.(ÜŸŒ
+?
+java:S1185Í"(Remove this method to simply inherit it.(àˆ­‹
+R	java:S125ç"<This block of commented-out lines of code should be removed.(±Ÿ®á

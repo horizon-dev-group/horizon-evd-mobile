@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fundTransactionReceivedTransactions"
+        android:checked="true"
+        android:color="@color/colorLightWhite"
+        android:icon="@drawable/ic_valid"
+        android:title="@string/fund_transaction_received" />
+
+    <item
+        android:id="@+id/fundTransactionSentTransactions"
+        android:color="@color/colorLightWhite"
+        android:icon="@drawable/ic_mail__1_"
+        android:title="@string/fund_transaction_sent" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/home_bottom_navigation_transfers"-->
+    <!--        android:icon="@drawable/ic_transfer"-->
+    <!--        android:title="Transfers"-->
+    <!--        android:color="@color/colorPrimary"/>-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/home_bottom_navigation_report"-->
+    <!--        android:icon="@drawable/ic_money_svgrepo_com"-->
+    <!--        android:title="Report"-->
+    <!--        android:color="@color/colorPrimary"/>-->
+</menu>

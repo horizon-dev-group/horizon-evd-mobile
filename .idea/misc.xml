@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/EVD/app/src/main/res/layouts/app_intro/layout/activity_balance_transfer_history.xml" value="0.2630208333333333" />
+        <entry key="..\:/EVD/app/src/main/res/layouts/app_intro/layout/activity_downloaded_voucher.xml" value="0.1707193515704154" />
+        <entry key="..\:/EVD/app/src/main/res/layouts/login_screen/layout-hdpi/activity_login.xml" value="0.2526041666666667" />
+        <entry key="..\:/EVD/app/src/main/res/layouts/setting/layout/user_profile.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_approved_signal_svgrepo_com.xml" value="0.29907407407407405" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_arrow_green.xml" value="0.2305" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_arrow_red.xml" value="0.21" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_chart_svgrepo_com.xml" value="0.206" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_clock_svgrepo_com.xml" value="0.3609375" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_clock_watch_svgrepo_com.xml" value="0.3609375" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_dollar.xml" value="0.2295" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_easy_installation.xml" value="0.3609375" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_eye_show_svgrepo_com.xml" value="0.145" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_graph_svgrepo_com.xml" value="0.206" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_hide_svgrepo_com.xml" value="0.1955" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_language_svgrepo_com.xml" value="0.3609375" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_login_screen_customer.xml" value="0.3609375" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_mail__1_.xml" value="0.3609375" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_money_svgrepo_com.xml" value="0.3609375" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/ic_options_svgrepo_com.xml" value="0.3465" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/report_border_only_button_background.xml" value="0.3465" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/drawable/report_border_only_button_container_background.xml" value="0.3465" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/drawable/progress_bar_rotator.xml" value="0.181" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/activity_downloaded_voucher.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/activity_my_agents.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/activity_new_home.xml" value="0.2712962962962963" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/bootomsheet_print_new_voucher.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/coming_soon_page.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/fragment_credit.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/fund_request.xml" value="0.5" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/fund_requests_collapsible_layout_body.xml" value="0.239247311827957" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/fund_transaction_body.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/fund_transaction_tabbed_layout.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/my_agents_collapsible_layout_body.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/report_collapsible_layout_body.xml" value="0.25" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/settings_new_page.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/layout/settings_new_page_body.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/menu/fund_transaction_navigation_items.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/app_intro/menu/report_settings.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/balance/layout/activity_fund_request.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/drawer/layout/drawer_side_menus.xml" value="0.67" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/history/layout/service_history.xml" value="0.25" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/home_screen/layout/activity_home.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/home_screen/layout/activity_home_layout_logo.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/login_screen/layout-hdpi/activity_login.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/login_screen/layout/activity_login.xml" value="1.4166666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/menu/agent_list_menu.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/menu/fund_request_menu.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/profile/layout/activity_profile.xml" value="0.1671875" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/setting/layout/user_profile.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/statement/layout/each_of_transaction_history.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/tableview/layout/tableview_column_header_layout.xml" value="0.1" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/transaction/layout/comp_collapsible_layout_header.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/transaction/layout/fund_requests_collapsible_layout_header.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/transaction/layout/my_agents_collapsible_layout_header.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/transaction/layout/report_collapsible_layout_header.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/transaction/layout/settings_new_page_header.xml" value="0.3394871794871795" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout-hdpi/voucher.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/dialog_create_new_agent.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/dialog_new_fund_request.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/dialog_revert_transaction.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/dialog_transfer_balance_to_agent.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/layout_fund_transaction_item.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/layout_fundrequest_item.xml" value="0.67" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/layout_user_item.xml" value="0.33" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/money_transfer.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/spinner_item.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/dell/StudioProjects/EVD/app/src/main/res/layouts/voucher/layout/voucher_fragment.xml" value="0.25277777777777777" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="android.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="14" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="android.annotation.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="14" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLightWhite"
+    android:paddingBottom="16dp">
+
+    <EditText
+        android:id="@+id/dialogFundRequestBankName"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/dialog_fund_request_bank_name"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/createAgentDescription"
+        app:layout_constraintTop_toBottomOf="@+id/dialogFundRequestType" />
+
+    <ImageView
+        android:id="@+id/dialogFundRequestBankNameIcon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogFundRequestBankName"
+        app:layout_constraintStart_toStartOf="@+id/dialogFundRequestBankName"
+        app:layout_constraintTop_toTopOf="@+id/dialogFundRequestBankName"
+        app:srcCompat="@drawable/ic_bank_svgrepo_com__1_" />
+
+    <EditText
+        android:id="@+id/dialogFundRequestTransactionRef"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/dialog_fund_request_transaction_reference_no"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/createAgentDescription"
+        app:layout_constraintTop_toBottomOf="@+id/dialogFundRequestBankName" />
+
+    <ImageView
+        android:id="@+id/dialogFundRequestTransactionRefIcon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogFundRequestTransactionRef"
+        app:layout_constraintStart_toStartOf="@+id/dialogFundRequestTransactionRef"
+        app:layout_constraintTop_toTopOf="@+id/dialogFundRequestTransactionRef"
+        app:srcCompat="@drawable/ic_transaction__2_" />
+
+    <EditText
+        android:id="@+id/dialogFundRequestCRV"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/dialog_fund_request_crv_no"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/createAgentDescription"
+        app:layout_constraintTop_toBottomOf="@+id/dialogFundRequestTransactionRef"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/dialogFundRequestCRVIcon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogFundRequestCRV"
+        app:layout_constraintStart_toStartOf="@+id/dialogFundRequestCRV"
+        app:layout_constraintTop_toTopOf="@+id/dialogFundRequestCRV"
+        app:srcCompat="@drawable/ic_number_svgrepo_com"
+        tools:visibility="gone" />
+
+    <EditText
+        android:id="@+id/dialogFundRequestRemark"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/dialog_fund_request_remark"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/createAgentDescription"
+        app:layout_constraintTop_toBottomOf="@+id/dialogFundRequestCRV" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogFundRequestRemark"
+        app:layout_constraintStart_toStartOf="@+id/dialogFundRequestRemark"
+        app:layout_constraintTop_toTopOf="@+id/dialogFundRequestRemark"
+        app:srcCompat="@drawable/ic_note_svgrepo_com" />
+
+    <EditText
+        android:id="@+id/dialogFundRequestAmount"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/dialog_fund_request_request_amount"
+        android:inputType="number"
+        android:numeric="decimal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/createAgentDescription"
+        app:layout_constraintTop_toBottomOf="@+id/createAgentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_money_svgrepo_com__2_" />
+
+    <!--    <com.github.willena.phoneinputview.PhoneInputView-->
+    <!--        android:id="@+id/phoneId"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:background="@drawable/bg_light_white_rounded_dialog"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/dialogAgentPhone"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/dialogAgentPhone"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/dialogAgentPhone" />-->
+
+    <EditText
+        android:id="@+id/dialogAgentEmail"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentDescription"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/createAgentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogFundRequestAmount"
+        app:layout_constraintStart_toStartOf="@+id/dialogFundRequestAmount"
+        app:layout_constraintTop_toTopOf="@+id/dialogFundRequestAmount"
+        app:srcCompat="@drawable/ic_dollar_coin" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAgentEmail"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentEmail"
+        app:layout_constraintTop_toTopOf="@+id/dialogAgentEmail"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/createAgentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/dialog_fund_request_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/createAgentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dialog_fund_request_description"
+        app:layout_constraintEnd_toEndOf="@+id/createAgentTitle"
+        app:layout_constraintStart_toStartOf="@+id/createAgentTitle"
+        app:layout_constraintTop_toBottomOf="@+id/createAgentTitle" />
+
+    <Button
+        android:id="@+id/dialogFundRequestRequest"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/dialog_fund_request_request"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/dialogFundRequestAmount"
+        app:layout_constraintTop_toBottomOf="@+id/dialogFundRequestRemark" />
+
+    <Button
+        android:id="@+id/dialogFundRequestCancel"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/dialog_cancel"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogFundRequestRequest"
+        app:layout_constraintStart_toStartOf="@+id/dialogFundRequestAmount"
+        app:layout_constraintTop_toTopOf="@+id/dialogFundRequestRequest" />
+
+    <Spinner
+        android:id="@+id/dialogFundRequestType"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/dialogFundRequestAmount"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dialogFundRequestAmount"
+        app:layout_constraintTop_toBottomOf="@+id/dialogFundRequestAmount" />
+
+    <ImageView
+        android:id="@+id/dialogFundRequestTypeIcon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogFundRequestType"
+        app:layout_constraintStart_toStartOf="@+id/dialogFundRequestType"
+        app:layout_constraintTop_toTopOf="@+id/dialogFundRequestType"
+        app:srcCompat="@drawable/ic_bank_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogFundRequestType"
+        app:layout_constraintEnd_toEndOf="@+id/dialogFundRequestType"
+        app:layout_constraintTop_toTopOf="@+id/dialogFundRequestType"
+        app:srcCompat="@drawable/ms__arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

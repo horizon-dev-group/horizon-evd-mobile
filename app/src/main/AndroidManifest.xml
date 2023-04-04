@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fibath">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature android:name="android.hardware.usb.accessory" />
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".BaseApp"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:fullBackupOnly="false"
+        android:hasFragileUserData="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:versionName="1"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".ui.profile.BalanceTransferHistory"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.NewHome"
+            android:configChanges="locale"
+            android:exported="true" />
+        <activity
+            android:name=".ui.agents.MyAgents"
+            android:exported="true"
+            android:theme="@style/AppThemeActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.voucher.VoucherFilter" />
+        <activity android:name=".ui.transfer.MoneyTransfer" />
+        <activity android:name=".ui.subdistributor.SubdistributorAdmin" />
+        <activity android:name=".ui.OfflineVoucher.DownloadedVoucher" />
+        <activity android:name=".ui.topup.topup" />
+        <activity android:name=".ui.electricity.ElectricityBill" />
+        <activity
+            android:name=".ui.splash.SplashScreen"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.home.Home" />
+        <activity android:name=".ui.intro.Intro" />
+        <activity android:name=".ui.login.Login" />
+        <activity android:name=".ui.voucher.Voucher" />
+        <activity android:name=".ui.Printer.telpo.v330.Telpo330Printer" />
+        <activity android:name=".ui.Printer.sunmi.v2.SunmiV2Printer" />
+        <activity android:name=".ui.tickets.bus_tickets.BusTicket" />
+        <activity android:name=".ui.tickets.train_tickets.TrainTicket" />
+        <activity android:name=".ui.profile.Profile" />
+        <activity android:name=".ui.profile.ProfileNew" />
+        <activity android:name=".ui.transaction.VoucherTransactionHistory" />
+        <activity android:name=".ui.statement.FundTransactionHistory" />
+        <activity android:name=".ui.history.ServiceHistory" />
+        <activity android:name=".ui.transaction.VoucherTransactionHistoryDetail" />
+        <activity android:name=".ui.statement.FundTransactionHistoryDetail" />
+        <activity
+            android:name=".ui.setting.UserSetting"
+            android:configChanges="locale" />
+        <activity android:name=".ui.Printer.telpo.v330.Telpo330PrinterStatic" />
+        <activity android:name=".ui.password.ChangePassword" />
+        <activity android:name=".ui.transaction.EachOfBulkTransactionHistory" />
+        <activity android:name=".ui.Printer.bluetooth.BluetoothPrinter" />
+        <activity android:name=".ui.Printer.PrinterOption" />
+        <activity android:name=".ui.statement.FundTransaction" />
+        <activity android:name=".ui.fundrequest.FundRequest" />
+
+        <service android:name=".services.BluetoothBroadcastReceiver" />
+
+        <meta-data
+            android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+            android:resource="@xml/device_filter" />
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ld_activityScreenTitles">
+        <item>@string/drawer_side_menu_dashboard_title</item>
+        <item>@string/drawer_side_menu_transactions_title</item>
+        <item>@string/drawer_side_menu_vouchers_title</item>
+<!--        <item>@string/drawer_side_menu_bank_title</item>-->
+        <item />
+        <item>@string/drawer_side_menu_my_account_title</item>
+        <item>@string/drawer_side_menu_settings_title</item>
+        <item>@string/drawer_side_menu_logout_title</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_dashboard__2_</item>
+        <item>@drawable/ic_transaction__2_</item>
+        <item>@drawable/ic_dollar_coin</item>
+<!--        <item>@drawable/ic_computing_cloud</item>-->
+        <item>0</item>
+        <item>@drawable/ic_drawer_my_account</item>
+        <item>@drawable/ic_drawer_settings</item>
+        <item>@drawable/ic_power_button_off</item>
+
+    </array>
+</resources>

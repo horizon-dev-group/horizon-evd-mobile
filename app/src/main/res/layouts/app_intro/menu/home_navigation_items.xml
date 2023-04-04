@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_bottom_navigation_cards"
+        android:icon="@drawable/ic_grid_menu"
+        android:title="@string/home_bottom_nav_1"
+        android:checked="true"
+        android:color="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/home_bottom_navigation_agnets"
+        android:icon="@drawable/ic_customer"
+        android:title="@string/home_bottom_nav_2"
+        android:color="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/home_bottom_navigation_transfers"
+        android:icon="@drawable/ic_transfer"
+        android:title="@string/home_bottom_nav_3"
+        android:color="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/home_bottom_navigation_report"
+        android:icon="@drawable/ic_statistics_outline"
+        android:title="@string/home_bottom_nav_4"
+        android:color="@color/colorPrimary"/>
+</menu>

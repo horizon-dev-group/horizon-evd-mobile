@@ -1,0 +1,54 @@
+
+m	java:S117|"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÌ‰å8Êø¿÷.
+{
+java:S1450,"^Remove the "bluetoothDevice" field and declare it as a local variable in the relevant methods.(ù»å8äÆºÈü.
+^	java:S125¬"<This block of commented-out lines of code should be removed.(¤Àüÿÿÿÿ8İÛØü.
+†	java:S116'"kRename this field "printer_layout_lottie_animation2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ˆ 8ÓÒÍ¿÷.
+>	java:S131Ó""Add a default case to this switch.(íÈåB8Êø¿÷.
+d
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Êø¿÷.
+£
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’¤±ôÿÿÿÿÿ8Êø¿÷.
+Œ	java:S116("kRename this field "printer_layout_status_indicator2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ãÿ†ùÿÿÿÿ8ÓÒÍ¿÷.
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(·Î”İıÿÿÿÿ8Êø¿÷.
+^	java:S125¬"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ÊÛØÍú.
+J
+java:S1659&"(Declare "connectBtn" on a separate line.(„Ó€ùÿÿÿÿ8ÓÒÍ¿÷.
+s
+java:S1128"VRemove this unused import 'com.example.highlightevd.classes.voucher.VoucherBulkPrint'.(ÒòßÕ8ßŸ©Æ÷.
+Y
+java:S2696‚"6Make the enclosing method "static" or remove this set.(èßòÜùÿÿÿÿ8äÆºÈü.
+J
+java:S1604N"(Make this anonymous inner class a lambda(ø”—ûÿÿÿÿ8Êø¿÷.
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(ï¬€º8Êø¿÷.
+Y	java:S125ò"<This block of commented-out lines of code should be removed.(ÃÙÚ¹8Êø¿÷.
+Y	java:S125“"<This block of commented-out lines of code should be removed.(÷Á¥€8Ûé¼Øü.
+e
+java:S1128"HRemove this unused import 'com.example.highlightevd.ui.voucher.Voucher'.(ûûŠÏ8™¼›Ç÷.
+Y
+java:S2696¼"6Make the enclosing method "static" or remove this set.(†¼†¾øÿÿÿÿ8Êø¿÷.
+
+java:S1488Ñ"\Immediately return this expression instead of assigning it to the temporary variable "type".(­‘¹Öşÿÿÿÿ8Êø¿÷.
+^	java:S125ã"<This block of commented-out lines of code should be removed.(ÓÒ×ğÿÿÿÿÿ8Êø¿÷.
+X	java:S125ª"<This block of commented-out lines of code should be removed.(Û¸ãO8›É–Øü.
+X
+java:S1141‹"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Êø¿÷.
+
+java:S1488Ê"\Immediately return this expression instead of assigning it to the temporary variable "type".(º…·÷øÿÿÿÿ8Êø¿÷.
+_
+java:S1128"BRemove this unused import 'com.example.highlightevd.ui.home.Home'.(í¨Œ»8™¼›Ç÷.
+?	java:S131Ä""Add a default case to this switch.(Ö¬ô¶8Êø¿÷.
+V	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(õ‚³œ8äÆºÈü.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ì§
+^	java:S125¤"<This block of commented-out lines of code should be removed.(Ûš’…úÿÿÿÿ8Å·àÖû.
+F
+java:S1185ª"(Remove this method to simply inherit it.(ÍÙ÷¢8ÊÛØÍú.
+m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÌ‰å8Êø¿÷.
+Y
+java:S2696‡"6Make the enclosing method "static" or remove this set.(óşåÚıÿÿÿÿ8Êø¿÷.
+S
+java:S1144¡"0Remove this unused private "getDateTime" method.(¡Ô‹ùÿÿÿÿ8Êø¿÷.
+[
+java:S1197£"8Move the array designator from the variable to the type.(Ï¼¬ûÿÿÿÿ8Êø¿÷.
+Y	java:S125°"<This block of commented-out lines of code should be removed.(Ñ¥š¡8ªÏ´òü.

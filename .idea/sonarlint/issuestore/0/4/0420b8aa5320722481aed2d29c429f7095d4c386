@@ -1,0 +1,92 @@
+
+^	java:S125Î"<This block of commented-out lines of code should be removed.(¯ï€ùÿÿÿÿ8‚–ÄÙü.
+j
+java:S2095Ù"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ØÙ¿ıÿÿÿÿ
+]
+java:S1854•":Remove this useless assignment to local variable "bitmap".(«Ñ”­şÿÿÿÿ8‚üÂÙü.
+S
+java:S1144”"0Remove this unused private "printQRCode" method.(¨´à øÿÿÿÿ8‚üÂÙü.
+O	java:S106ô"9Replace this use of System.out or System.err by a logger.(“†¤
+F
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+£
+java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(í¨ãòüÿÿÿÿ8‰‡ÆÈä.
+
+java:S1488Ş"\Immediately return this expression instead of assigning it to the temporary variable "type".(º…·÷øÿÿÿÿ8‚üÂÙü.
+W	java:S110""=This class has 10 parents which is greater than 5 authorized.(µéì‘ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑÓÛ–
+n	java:S116#"TRename this field "print_num" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ™õ©ıÿÿÿÿ
+^	java:S125¶"<This block of commented-out lines of code should be removed.(ßø”Ëúÿÿÿÿ8‚üÂÙü.
+^	java:S125Ö"<This block of commented-out lines of code should be removed.(ÁöÒïùÿÿÿÿ8‚üÂÙü.
+Y	java:S125£"<This block of commented-out lines of code should be removed.(÷Á¥€8¼ÛÂÙü.
+Y	java:S125Â"<This block of commented-out lines of code should be removed.(¢€üÓ8‚üÂÙü.
+D
+java:S1068$".Remove this unused "print_size" private field.(¨Å©‚
+u
+java:S1192†"^Define a constant instead of duplicating this literal "horizon_ethiotelecom_logo.png" 3 times.(¡ˆƒ®
+Y	java:S125ù"<This block of commented-out lines of code should be removed.(©™Ù‡8‚üÂÙü.
+^	java:S125"<This block of commented-out lines of code should be removed.(Ş…”şÿÿÿÿ8‚üÂÙü.
+T	java:S106°"9Replace this use of System.out or System.err by a logger.(òıòıÿÿÿÿ
+E
+java:S2093X"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+L
+java:S1144ÿ".Remove this unused private "printText" method.(ø¬Ç8‚üÂÙü.
+F
+java:S2093¤"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+[	java:S106±"9Replace this use of System.out or System.err by a logger.(Ì¬Ë©ùÿÿÿÿ8‚üÂÙü.
+]
+java:S2259ä"AA "NullPointerException" could be thrown; "fos" is nullable here.(æŒÕ®ùÿÿÿÿ
+=
+java:S1604>"(Make this anonymous inner class a lambda(¿ú 
+j	java:S116$"URename this field "print_size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Å©‚
+^
+java:S1874)"CRemove this use of "getExternalStorageDirectory"; it is deprecated.(¾àûÿÿÿÿ
+^	java:S125–"<This block of commented-out lines of code should be removed.(æ±ß¡úÿÿÿÿ8‚üÂÙü.
+s	java:S116*"^Rename this field "back_button_printer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õº±®
+H
+java:S1068#"-Remove this unused "print_num" private field.( ™õ©ıÿÿÿÿ
+j	java:S116%"VRename this field "error_level" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ˆ2
+Y	java:S125Œ"<This block of commented-out lines of code should be removed.(©™Ù‡8‚üÂÙü.
+D
+java:S1068%"/Remove this unused "error_level" private field.(—ˆ2
+h
+java:S3776P"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(ÄëŸ±
+
+java:S1488å"\Immediately return this expression instead of assigning it to the temporary variable "type".(­‘¹Öşÿÿÿÿ8‚üÂÙü.
+]
+java:S1854¦"?Remove this useless assignment to local variable "originalPin".(âÎ 8‚üÂÙü.
+R	java:S125ö"<This block of commented-out lines of code should be removed.(Šê±Á
+^	java:S125Ó"<This block of commented-out lines of code should be removed.(ßø”Ëúÿÿÿÿ8‚üÂÙü.
+‹
+java:S1192®"hDefine a constant instead of duplicating this literal "i am in Ethiotelecom voucher pattern is" 4 times.(Ñş¨™üÿÿÿÿ8‚üÂÙü.
+?	java:S108ï")Either remove or fill this block of code.(¯ úÈ
+^	java:S125À"<This block of commented-out lines of code should be removed.(Š»Ÿ½üÿÿÿÿ8‚üÂÙü.
+T	java:S106®"9Replace this use of System.out or System.err by a logger.(Ñş¨™üÿÿÿÿ
+e
+java:S2259ã"IA "NullPointerException" could be thrown; "inputStream" is nullable here.(¶ò†Áşÿÿÿÿ
+?	java:S108ñ")Either remove or fill this block of code.(•ê¥‹
+N
+java:S1481¦"0Remove this unused "originalPin" local variable.(âÎ 8‚üÂÙü.
+7	java:S131Q""Add a default case to this switch.(«ù¹¬
+F
+java:S2093×"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E
+java:S2093r"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+^	java:S125Ì"<This block of commented-out lines of code should be removed.(«›§¿üÿÿÿÿ8ƒ¯ÄÙü.
+N
+java:S1481•"+Remove this unused "bitmap" local variable.(«Ñ”­şÿÿÿÿ8‚üÂÙü.
+^	java:S125ã"<This block of commented-out lines of code should be removed.(üç˜Ãúÿÿÿÿ8‚üÂÙü.
+R
+java:S1144­"/Remove this unused private "scaleImage" method.(Â›Ôşÿÿÿÿ8‚üÂÙü.
+F
+java:S2093¿"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+W	java:S125ş"<This block of commented-out lines of code should be removed.(Ã»Ş”úÿÿÿÿ
+^	java:S125€"<This block of commented-out lines of code should be removed.(Š‘ñøÿÿÿÿ8‚üÂÙü.
+v
+java:S1192‡"_Define a constant instead of duplicating this literal "/horizon_ethiotelecom_logo.bmp" 3 times.(çºË®
+T	java:S106¯"9Replace this use of System.out or System.err by a logger.(ÿè ûÿÿÿÿ
+^	java:S125í"<This block of commented-out lines of code should be removed.(Š‘ñøÿÿÿÿ8‚üÂÙü.
+Y	java:S125Æ"<This block of commented-out lines of code should be removed.(¹ŒŞŒ8‚üÂÙü.
+j
+java:S2095Á"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ö“¯úÿÿÿÿ
+^	java:S125Ü"<This block of commented-out lines of code should be removed.(£ÛÃ¡ıÿÿÿÿ8‚üÂÙü.

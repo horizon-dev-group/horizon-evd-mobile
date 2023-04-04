@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLightWhite"
+    android:paddingBottom="16dp">
+
+    <EditText
+        android:id="@+id/dialogRevertTransactionAmountToDeduct"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/revert_transaction_amount_to_deduct"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/error_dialog_description"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/error_dialog_description"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout22" />
+
+    <!--    <com.github.willena.phoneinputview.PhoneInputView-->
+    <!--        android:id="@+id/phoneId"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:background="@drawable/bg_light_white_rounded_dialog"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/dialogAgentPhone"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/dialogAgentPhone"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/dialogAgentPhone" />-->
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogRevertTransactionAmountToDeduct"
+        app:layout_constraintStart_toStartOf="@+id/dialogRevertTransactionAmountToDeduct"
+        app:layout_constraintTop_toTopOf="@+id/dialogRevertTransactionAmountToDeduct"
+        app:srcCompat="@drawable/ic_dollar"
+        app:tint="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAgentEmail"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentEmail"
+        app:layout_constraintTop_toTopOf="@+id/dialogAgentEmail"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        app:tint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/error_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/revert_transaction_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+    <TextView
+        android:id="@+id/error_dialog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/revert_transaction_description"
+        app:layout_constraintEnd_toEndOf="@+id/error_dialog_title"
+        app:layout_constraintStart_toStartOf="@+id/error_dialog_title"
+        app:layout_constraintTop_toBottomOf="@+id/error_dialog_title" />
+
+    <Button
+        android:id="@+id/dialogRevertTransactionDeductTransaction"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded_right"
+        android:text="@string/revert_transaction_deduct"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/dialogRevertTransactionAmountToDeduct"
+        app:layout_constraintStart_toEndOf="@+id/dialogRevertTransactionCancel"
+        app:layout_constraintTop_toBottomOf="@+id/dialogRevertTransactionAmountToDeduct" />
+
+    <Button
+        android:id="@+id/dialogRevertTransactionCancel"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded_left"
+        android:text="@string/dialog_cancel"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/dialogRevertTransactionAmountToDeduct"
+        app:layout_constraintTop_toBottomOf="@+id/dialogRevertTransactionAmountToDeduct" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_undo__1_" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#EAEAEA"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/error_dialog_description">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="175dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/dialogRevertTransactionMaxDeductibleTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/revert_transaction_max_deductable"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/dialogRevertTransactionMaxDeductible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="-"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/dialogRevertTransactionMaxDeductibleTitle"
+                    app:layout_constraintStart_toStartOf="@+id/dialogRevertTransactionMaxDeductibleTitle"
+                    app:layout_constraintTop_toBottomOf="@+id/dialogRevertTransactionMaxDeductibleTitle" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="175dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dialogRevertTransactionUserBalanceTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/revert_transaction_user_balance"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/dialogRevertTransactionUserBalance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="-"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/dialogRevertTransactionUserBalanceTitle"
+                    app:layout_constraintStart_toStartOf="@+id/dialogRevertTransactionUserBalanceTitle"
+                    app:layout_constraintTop_toBottomOf="@+id/dialogRevertTransactionUserBalanceTitle" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

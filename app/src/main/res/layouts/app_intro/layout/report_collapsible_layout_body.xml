@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorLightWhite">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorLightWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <HorizontalScrollView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:scrollbars="none">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/bg_white_rounded"
+                                android:paddingBottom="24dp">
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="TRANS AMOUNT"
+                                    android:textSize="11sp"
+                                    app:layout_constraintBottom_toBottomOf="@+id/transactionItemStatusIcon2"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/transactionItemStatusIcon2" />
+
+                                <TextView
+                                    android:id="@+id/reportTotalReceivedFundAmount"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="0 Br."
+                                    android:textColor="@color/colorPrimaryPallet1"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon2"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                                <ImageView
+                                    android:id="@+id/transactionItemStatusIcon2"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    android:rotation="-45"
+                                    app:srcCompat="@drawable/ic_arrow_green"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:text="Received Amount"
+                                    android:textColor="@color/colorPrimaryPallet1"
+                                    android:textSize="12sp"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon2"
+                                    app:layout_constraintTop_toBottomOf="@+id/transactionItemStatusIcon2" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/bg_white_rounded"
+                                android:paddingBottom="24dp">
+
+                                <TextView
+                                    android:id="@+id/textView142"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="TRANS QUANTITY"
+                                    android:textSize="11sp"
+                                    app:layout_constraintBottom_toBottomOf="@+id/transactionItemStatusIcon22"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/transactionItemStatusIcon22" />
+
+                                <TextView
+                                    android:id="@+id/reportTotalReceivedFundQuantity"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="0 Tr."
+                                    android:textColor="@color/colorPrimaryPallet1"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon22"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+                                <ImageView
+                                    android:id="@+id/transactionItemStatusIcon22"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    app:srcCompat="@drawable/ic_transaction__2_"
+                                    android:tint="@color/colorPrimaryPallet1"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/textView112"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:text="Received Transactions"
+                                    android:textColor="@color/colorPrimaryPallet1"
+                                    android:textSize="12sp"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon22"
+                                    app:layout_constraintTop_toBottomOf="@+id/transactionItemStatusIcon22" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/bg_white_rounded"
+                                android:paddingBottom="24dp">
+
+                                <TextView
+                                    android:id="@+id/textView1423"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="TRANS AMOUNT"
+                                    android:textSize="11sp"
+                                    app:layout_constraintBottom_toBottomOf="@+id/transactionItemStatusIcon223"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/transactionItemStatusIcon223" />
+
+                                <TextView
+                                    android:id="@+id/reportTotalSentFundAmount"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="0 Br."
+                                    android:textColor="@color/colorPrimaryWarning"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon223"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView1123" />
+
+                                <ImageView
+                                    android:id="@+id/transactionItemStatusIcon223"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    android:rotation="135"
+                                    app:srcCompat="@drawable/ic_arrow_red"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/textView1123"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:text="Sent Amount"
+                                    android:textColor="@color/colorPrimaryWarning"
+                                    android:textSize="12sp"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon223"
+                                    app:layout_constraintTop_toBottomOf="@+id/transactionItemStatusIcon223" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/bg_white_rounded"
+                                android:paddingBottom="24dp">
+
+                                <TextView
+                                    android:id="@+id/textView141"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="TRANS QUANTITY"
+                                    android:textSize="11sp"
+                                    app:layout_constraintBottom_toBottomOf="@+id/transactionItemStatusIcon21"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/transactionItemStatusIcon21" />
+
+                                <TextView
+                                    android:id="@+id/reportTotalSentFundQuantity"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="0 Tr."
+                                    android:textColor="@color/colorPrimaryWarning"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon21"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+                                <ImageView
+                                    android:id="@+id/transactionItemStatusIcon21"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    android:rotation="135"
+                                    app:srcCompat="@drawable/ic_transaction__2_"
+                                    android:tint="@color/colorPrimaryWarning"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/textView111"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:text="Received Amount"
+                                    android:textColor="@color/colorPrimaryWarning"
+                                    android:textSize="12sp"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon21"
+                                    app:layout_constraintTop_toBottomOf="@+id/transactionItemStatusIcon21" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_rounded"
+                        android:paddingBottom="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="24dp"
+                            android:visibility="visible"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/reportCardSalesPerFaceValueChart">
+
+                            <androidx.gridlayout.widget.GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:columnCount="4"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:rowCount="5">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume3111"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="5 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button6111"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button6111"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#A40E4C"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume31112"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="10 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button61112"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button61112"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#34D1BF"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume311122"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="15 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button611122"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button611122"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#D81E5B"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume31112223"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="20 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button61112223"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button61112223"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#70C1B3"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume3111222"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="25 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button6111222"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button6111222"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#ACC3A6"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume311"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="50 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button611"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button611"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#F5D6BA"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume31"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="100 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button61"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button61"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#B6A39E"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="200 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button6"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button6"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#A9E5BB"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume34"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="250 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button64"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button64"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#5C374C"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume35"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="500 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button65"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button65"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#F49D6E"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/totalSalesVolume351"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="1000 Birr"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/button651"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <Button
+                                        android:id="@+id/button651"
+                                        android:layout_width="20dp"
+                                        android:layout_height="10dp"
+                                        android:background="#F72C25"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </androidx.gridlayout.widget.GridLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="24dp"
+                            android:text="SALES PER FACE VALUE"
+                            android:textSize="11sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/transactionItemStatusIcon3"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/transactionItemStatusIcon3" />
+
+                        <ImageView
+                            android:id="@+id/transactionItemStatusIcon3"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/ic_dollar"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:tint="#ECA72C" />
+
+                        <com.github.mikephil.charting.charts.PieChart
+                            android:id="@+id/reportCardSalesPerFaceValueChart"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@color/color_transparent"
+                            android:paddingStart="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingEnd="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <HorizontalScrollView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:scrollbars="none"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:scrollbars="none">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/bg_white_rounded"
+                                android:paddingBottom="24dp">
+
+                                <TextView
+                                    android:id="@+id/textView149"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="TOTAL SALES AMNT"
+                                    android:textSize="11sp"
+                                    app:layout_constraintBottom_toBottomOf="@+id/transactionItemStatusIcon29"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/transactionItemStatusIcon29" />
+
+                                <TextView
+                                    android:id="@+id/reportTotalSalesAmount"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="0 Br."
+                                    android:textColor="#A78A7F"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon29"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView119" />
+
+                                <ImageView
+                                    android:id="@+id/transactionItemStatusIcon29"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    android:tint="#A78A7F"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/ic_dollar" />
+
+                                <TextView
+                                    android:id="@+id/textView119"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:text="Sales Amount"
+                                    android:textColor="#A78A7F"
+                                    android:textSize="12sp"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon29"
+                                    app:layout_constraintTop_toBottomOf="@+id/transactionItemStatusIcon29" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/bg_white_rounded"
+                                android:paddingBottom="24dp">
+
+                                <TextView
+                                    android:id="@+id/textView1429"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="TOTAL SALES PROFIT"
+                                    android:textSize="11sp"
+                                    app:layout_constraintBottom_toBottomOf="@+id/transactionItemStatusIcon229"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/transactionItemStatusIcon229" />
+
+                                <TextView
+                                    android:id="@+id/reportTotalSalesProfitAmount"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="0 Br."
+                                    android:textColor="@color/colorPrimaryPallet1"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon229"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView1129" />
+
+                                <ImageView
+                                    android:id="@+id/transactionItemStatusIcon229"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    android:tint="@color/colorPrimaryPallet1"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/ic_transaction__2_" />
+
+                                <TextView
+                                    android:id="@+id/textView1129"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:text="Sales Profit"
+                                    android:textColor="@color/colorPrimaryPallet1"
+                                    android:textSize="12sp"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon229"
+                                    app:layout_constraintTop_toBottomOf="@+id/transactionItemStatusIcon229" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/bg_white_rounded"
+                                android:paddingBottom="24dp">
+
+                                <TextView
+                                    android:id="@+id/textView14239"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="TOTAL SOLD VOUCHER"
+                                    android:textSize="11sp"
+                                    app:layout_constraintBottom_toBottomOf="@+id/transactionItemStatusIcon2239"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/transactionItemStatusIcon2239" />
+
+                                <TextView
+                                    android:id="@+id/reportTotalSalesQuantity"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="24dp"
+                                    android:text="0"
+                                    android:textColor="#904E55"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon2239"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView11239" />
+
+                                <ImageView
+                                    android:id="@+id/transactionItemStatusIcon2239"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    android:tint="#904E55"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/ic_number_svgrepo_com" />
+
+                                <TextView
+                                    android:id="@+id/textView11239"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:text="Sales Qantity"
+                                    android:textColor="#904E55"
+                                    android:textSize="12sp"
+                                    app:layout_constraintStart_toStartOf="@+id/transactionItemStatusIcon2239"
+                                    app:layout_constraintTop_toBottomOf="@+id/transactionItemStatusIcon2239" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

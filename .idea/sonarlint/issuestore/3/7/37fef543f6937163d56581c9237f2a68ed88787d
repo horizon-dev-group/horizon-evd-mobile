@@ -1,0 +1,61 @@
+
+V	java:S106Ò"9Replace this use of System.out or System.err by a logger.(¨»È†8×·¿÷.
+O
+java:S1144Á"1Remove this unused private "getLogoTypes" method.(ÌÎù8Ëı½¿÷.
+
+java:S1488¼"\Immediately return this expression instead of assigning it to the temporary variable "type".(º…·÷øÿÿÿÿ8Ëı½¿÷.
+_
+java:S1128"BRemove this unused import 'com.example.highlightevd.ui.home.Home'.(í¨Œ»8ÖâšÇ÷.
+X
+java:S2696y"6Make the enclosing method "static" or remove this set.(óşåÚıÿÿÿÿ8Ëı½¿÷.
+Y
+java:S2696‚"6Make the enclosing method "static" or remove this set.(·Î”İıÿÿÿÿ8Ëı½¿÷.
+Y	java:S125…"<This block of commented-out lines of code should be removed.(÷Á¥€8«Š‹Ùü.
+>	java:S131Æ""Add a default case to this switch.(íÈåB8Ëı½¿÷.
+Y	java:S125å"<This block of commented-out lines of code should be removed.(ÃÙÚ¹8Ëı½¿÷.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ëı½¿÷.
+Y
+java:S2696¯"6Make the enclosing method "static" or remove this set.(†¼†¾øÿÿÿÿ8Ëı½¿÷.
+S
+java:S1144”"0Remove this unused private "getDateTime" method.(¡Ô‹ùÿÿÿÿ8Ëı½¿÷.
+W
+java:S1141}"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ëı½¿÷.
+I
+java:S1659,"'Declare "pinNumber" on a separate line.(„½ııÿÿÿÿ8ä‹º¿÷.
+J
+java:S1659$"(Declare "connectBtn" on a separate line.(„Ó€ùÿÿÿÿ8Ô»±¿÷.
+[	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(¬“Ñòıÿÿÿÿ8×·¿÷.
+
+java:S1488Ã"\Immediately return this expression instead of assigning it to the temporary variable "type".(­‘¹Öşÿÿÿÿ8Ëı½¿÷.
+s
+java:S1128"VRemove this unused import 'com.example.highlightevd.classes.voucher.VoucherBulkPrint'.(ÒòßÕ8Èé¬Æ÷.
+m	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÌ‰å8Ëı½¿÷.
+^	java:S125Ÿ"<This block of commented-out lines of code should be removed.(²Š…Ûùÿÿÿÿ8ÿèÙü.
+Y	java:S125£"<This block of commented-out lines of code should be removed.(Ñ¥š¡8…¦òü.
+^	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8Á¾ÜÍú.
+†	java:S116%"kRename this field "printer_layout_lottie_animation2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ˆ 8Ô»±¿÷.
+J
+java:S1659,"(Declare "expiryDate" on a separate line.(„½ııÿÿÿÿ8ä‹º¿÷.
+Œ	java:S116&"kRename this field "printer_layout_status_indicator2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ãÿ†ùÿÿÿÿ8Ô»±¿÷.
+[	java:S106Ï"9Replace this use of System.out or System.err by a logger.(ÚàÛ¬ÿÿÿÿÿ8Ëı½¿÷.
+J
+java:S1604E"(Make this anonymous inner class a lambda(ø”—ûÿÿÿÿ8Ô»±¿÷.
+^	java:S125—"<This block of commented-out lines of code should be removed.(Ûš’…úÿÿÿÿ8ûÏˆÙü.
+U
+java:S1144º"2Remove this unused private "getPrintTypes" method.(…áéñûÿÿÿÿ8Ëı½¿÷.
+[	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(¤ÜëÜÿÿÿÿÿ8×·¿÷.
+F
+java:S1185"(Remove this method to simply inherit it.(ÍÙ÷¢8Á¾ÜÍú.
+?	java:S131·""Add a default case to this switch.(Ö¬ô¶8Ëı½¿÷.
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(ï¬€º8İ½¿÷.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ì§
+L
+java:S1659,"*Declare "serialNumber" on a separate line.(„½ııÿÿÿÿ8ä‹º¿÷.
+^	java:S125Ö"<This block of commented-out lines of code should be removed.(ÓÒ×ğÿÿÿÿÿ8Ëı½¿÷.
+[
+java:S1197–"8Move the array designator from the variable to the type.(Ï¼¬ûÿÿÿÿ8Ëı½¿÷.
+m	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÌ‰å8Ô»±¿÷.
+
+java:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•³ãÒ8—î´¿÷.
+X	java:S125"<This block of commented-out lines of code should be removed.(Û¸ãO8şÙü.

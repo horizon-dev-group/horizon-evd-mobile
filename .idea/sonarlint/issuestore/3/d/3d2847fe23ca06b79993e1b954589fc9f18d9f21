@@ -1,0 +1,146 @@
+
+t
+java:S1104"^Make FEED_PAPER_AND_CUT a static final constant or non-public and provide accessors if needed.(ò¸à
+8
+java:S2386-"Make this member "protected".(ª‘ßøüÿÿÿÿ
+T
+java:S1444"9Make this "public static SET_BAR_CODE_HEIGHT" field final(»ñ±Óÿÿÿÿÿ
+e
+java:S1444"JMake this "public static SELECT_CYRILLIC_CHARACTER_CODE_TABLE" field final(æóüÿÿÿÿ
+Š
+java:S3008"oRename this field "SELECT_CYRILLIC_CHARACTER_CODE_TABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æóüÿÿÿÿ
+z
+java:S1104""_Make SET_LINE_SPACING_24 a static final constant or non-public and provide accessors if needed.(Æî†¨üÿÿÿÿ
+y
+java:S3008""^Rename this field "SET_LINE_SPACING_24" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æî†¨üÿÿÿÿ
+8
+java:S2386+"Make this member "protected".(‰ºËüÿÿÿÿÿ
+‰
+java:S3008&"nRename this field "TRANSMIT_DLE_OFFLINE_PRINTER_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ©Õˆÿÿÿÿÿ
+Š
+java:S1104&"oMake TRANSMIT_DLE_OFFLINE_PRINTER_STATUS a static final constant or non-public and provide accessors if needed.(Œ©Õˆÿÿÿÿÿ
+y
+java:S3008"^Rename this field "SET_BAR_CODE_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ñ±Óÿÿÿÿÿ
+w
+java:S1104"\Make PRINT_BAR_CODE_1 a static final constant or non-public and provide accessors if needed.(Õ¨ôöÿÿÿÿÿ
+8
+java:S23869"Make this member "protected".(ô‰‰àùÿÿÿÿ
+z
+java:S1104"_Make SET_BAR_CODE_HEIGHT a static final constant or non-public and provide accessors if needed.(»ñ±Óÿÿÿÿÿ
+V
+java:S1444!";Make this "public static SELECT_BIT_IMAGE_MODE" field final(„óàüÿÿÿÿ
+N
+java:S1444"8Make this "public static FEED_PAPER_AND_CUT" field final(ò¸à
+d
+java:S1444&"IMake this "public static TRANSMIT_DLE_OFFLINE_PRINTER_STATUS" field final(Œ©Õˆÿÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ì§
+Z
+java:S1444'"?Make this "public static TRANSMIT_DLE_ERROR_STATUS" field final(§´è¿ùÿÿÿÿ
+j
+java:S3008"TRename this field "FEED_LINE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬òËÇ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(£ˆŸ‘
+3
+java:S2386*"Make this member "protected".(ã ä‡
+{
+java:S3008!"`Rename this field "SELECT_BIT_IMAGE_MODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„óàüÿÿÿÿ
+v
+java:S3008"[Rename this field "PRINT_BAR_CODE_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¨ôöÿÿÿÿÿ
+T
+java:S1444#"9Make this "public static SET_LINE_SPACING_30" field final( ’Úşÿÿÿÿ
+y
+java:S1104"^Make SELECT_PRINT_SHEET a static final constant or non-public and provide accessors if needed.(Š»ïƒÿÿÿÿÿ
+3
+java:S2386."Make this member "protected".(šÑ”
+
+java:S3008%"fRename this field "TRANSMIT_DLE_PRINTER_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş“…µşÿÿÿÿ
+3
+java:S2386"Make this member "protected".(¤ŸŞß
+8
+java:S2386'"Make this member "protected".(§´è¿ùÿÿÿÿ
+E
+java:S1444"/Make this "public static FEED_LINE" field final(¬òËÇ
+p
+java:S1104"ZMake SEND_NULL_BYTE a static final constant or non-public and provide accessors if needed.(¤ŸŞß
+8
+java:S2386"Make this member "protected".(Š»ïƒÿÿÿÿÿ
+3
+java:S2386"Make this member "protected".(ò¸à
+8
+java:S2386#"Make this member "protected".( ’Úşÿÿÿÿ
+†
+java:S3008("pRename this field "TRANSMIT_DLE_ROLL_PAPER_SENSOR_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úäõ¸
+€
+java:S1104'"eMake TRANSMIT_DLE_ERROR_STATUS a static final constant or non-public and provide accessors if needed.(§´è¿ùÿÿÿÿ
+3
+java:S23860"Make this member "protected".(©¤ê»
+y
+java:S3008#"^Rename this field "SET_LINE_SPACING_30" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ’Úşÿÿÿÿ
+T
+java:S1444""9Make this "public static SET_LINE_SPACING_24" field final(Æî†¨üÿÿÿÿ
+x
+java:S3008"]Rename this field "SELECT_PRINT_SHEET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š»ïƒÿÿÿÿÿ
+k
+java:S1104"UMake FEED_LINE a static final constant or non-public and provide accessors if needed.(¬òËÇ
+‡
+java:S1104("qMake TRANSMIT_DLE_ROLL_PAPER_SENSOR_STATUS a static final constant or non-public and provide accessors if needed.(úäõ¸
+8
+java:S23865"Make this member "protected".(…¢Ïóøÿÿÿÿ
+8
+java:S2386"Make this member "protected".(æóüÿÿÿÿ
+t
+java:S1104"YMake SELECT_FONT_A a static final constant or non-public and provide accessors if needed.(»ˆ¼´úÿÿÿÿ
+|
+java:S1104!"aMake SELECT_BIT_IMAGE_MODE a static final constant or non-public and provide accessors if needed.(„óàüÿÿÿÿ
+s
+java:S3008"XRename this field "SELECT_FONT_A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ˆ¼´úÿÿÿÿ
+
+java:S3008'"dRename this field "TRANSMIT_DLE_ERROR_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§´è¿ùÿÿÿÿ
+8
+java:S23864"Make this member "protected".(™ä¤Õúÿÿÿÿ
+s
+java:S3008"]Rename this field "FEED_PAPER_AND_CUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¸à
+Q
+java:S1444"6Make this "public static PRINT_BAR_CODE_1" field final(Õ¨ôöÿÿÿÿÿ
+8
+java:S2386""Make this member "protected".(Æî†¨üÿÿÿÿ
+8
+java:S2386"Make this member "protected".(»ˆ¼´úÿÿÿÿ
+8
+java:S2386"Make this member "protected".(Õ¨ôöÿÿÿÿÿ
+3
+java:S23868"Make this member "protected".(¾Äòã
+8
+java:S2386"Make this member "protected".(»ñ±Óÿÿÿÿÿ
+\
+java:S1444%"AMake this "public static TRANSMIT_DLE_PRINTER_STATUS" field final(Ş“…µşÿÿÿÿ
+8
+java:S2386%"Make this member "protected".(Ş“…µşÿÿÿÿ
+3
+java:S2386("Make this member "protected".(úäõ¸
+a
+java:S1444("KMake this "public static TRANSMIT_DLE_ROLL_PAPER_SENSOR_STATUS" field final(úäõ¸
+8
+java:S2386&"Make this member "protected".(Œ©Õˆÿÿÿÿÿ
+S
+java:S1444"8Make this "public static SELECT_PRINT_SHEET" field final(Š»ïƒÿÿÿÿÿ
+8
+java:S2386!"Make this member "protected".(„óàüÿÿÿÿ
+3
+java:S2386"Make this member "protected".(Æ„°ä
+3
+java:S2386/"Make this member "protected".(ÈåÉ±
+z
+java:S1104#"_Make SET_LINE_SPACING_30 a static final constant or non-public and provide accessors if needed.( ’Úşÿÿÿÿ
+o
+java:S3008"YRename this field "SEND_NULL_BYTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ŸŞß
+J
+java:S1444"4Make this "public static SEND_NULL_BYTE" field final(¤ŸŞß
+‹
+java:S1104"pMake SELECT_CYRILLIC_CHARACTER_CODE_TABLE a static final constant or non-public and provide accessors if needed.(æóüÿÿÿÿ
+‚
+java:S1104%"gMake TRANSMIT_DLE_PRINTER_STATUS a static final constant or non-public and provide accessors if needed.(Ş“…µşÿÿÿÿ
+N
+java:S1444"3Make this "public static SELECT_FONT_A" field final(»ˆ¼´úÿÿÿÿ
+3
+java:S2386"Make this member "protected".(¬òËÇ

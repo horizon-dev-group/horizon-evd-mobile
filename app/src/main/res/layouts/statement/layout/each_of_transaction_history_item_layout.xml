@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/transaction_history_item_layout_screen_card_view"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/transaction_history_item_layout_screen_transaction_price"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="32dp"
+                android:text="234.00 BIrr"
+                android:textColor="@color/alerter_default_success_background"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/transaction_history_item_layout_screen_transaction_status"
+                app:layout_constraintEnd_toStartOf="@+id/imageView10"
+                app:layout_constraintStart_toEndOf="@+id/transaction_history_item_layout_screen_transaction_type"
+                app:layout_constraintTop_toTopOf="@+id/transaction_history_item_layout_screen_transaction_type" />
+
+            <TextView
+                android:id="@+id/transaction_history_item_layout_screen_transaction_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Jan 10 2020 10 AM"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/transaction_history_item_layout_screen_transaction_status"
+                app:layout_constraintTop_toTopOf="@+id/transaction_history_item_layout_screen_transaction_status" />
+
+            <TextView
+                android:id="@+id/transaction_history_item_layout_screen_transaction_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/checkout_screen_text_vouchers"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/transaction_history_item_layout_screen_transaction_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer To Customer-Completed"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/transaction_history_item_layout_screen_transaction_type_main"
+                app:layout_constraintTop_toBottomOf="@+id/transaction_history_item_layout_screen_transaction_type_main" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/three_dot" />
+
+            <TextView
+                android:id="@+id/transaction_history_item_layout_screen_transaction_type_main"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="TextView"
+                app:layout_constraintStart_toStartOf="@+id/transaction_history_item_layout_screen_transaction_type"
+                app:layout_constraintTop_toBottomOf="@+id/transaction_history_item_layout_screen_transaction_type" />
+
+            <TextView
+                android:id="@+id/textViewPageCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="TextView"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/transaction_history_item_layout_screen_transaction_date"
+                app:layout_constraintTop_toBottomOf="@+id/transaction_history_item_layout_screen_transaction_price" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

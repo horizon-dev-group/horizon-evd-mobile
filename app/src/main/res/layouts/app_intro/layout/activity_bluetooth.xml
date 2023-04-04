@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_checkout"
+    android:orientation="vertical"
+    tools:context=".ui.Printer.bluetooth.BluetoothPrinter">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/printer_layout_lottie_animation2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:scaleX="1.05"
+        android:scaleY="1.05"
+        android:visibility="visible"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintHorizontal_bias="0.503"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:lottie_autoPlay="true"
+        card_view:lottie_fileName="activity_app_intro_pos_2.json"
+        card_view:lottie_loop="true" />
+
+    <Button
+        android:id="@+id/btnBill"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Print"
+        android:textColor="#fff"
+        android:visibility="visible"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toBottomOf="@+id/connect_btn" />
+
+    <Button
+        android:id="@+id/connect_btn"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ReConnect"
+        card_view:layout_constraintEnd_toEndOf="@+id/btnBill"
+        card_view:layout_constraintStart_toStartOf="@+id/btnBill"
+        card_view:layout_constraintTop_toBottomOf="@+id/printer_layout_lottie_animation2"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

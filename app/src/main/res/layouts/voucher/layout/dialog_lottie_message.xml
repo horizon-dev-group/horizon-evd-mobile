@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLightWhite"
+    android:paddingBottom="24dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/dialogLottieAnimation"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="bluetooth-connected-1.json"
+        app:lottie_loop="false" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/dialogLottieAnimation"-->
+    <!--        android:layout_width="70dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:srcCompat="@drawable/ic_customer__1_" />-->
+
+    <!--    <com.github.willena.phoneinputview.PhoneInputView-->
+    <!--        android:id="@+id/phoneId"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:background="@drawable/bg_light_white_rounded_dialog"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/dialogAgentPhone"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/dialogAgentPhone"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/dialogAgentPhone" />-->
+
+    <EditText
+        android:id="@+id/dialogAgentEmail"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/dialogLottieDescription"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/dialogLottieDescription" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAgentEmail"
+        app:layout_constraintStart_toStartOf="@+id/dialogAgentEmail"
+        app:layout_constraintTop_toTopOf="@+id/dialogAgentEmail"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/dialogLottieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogLottieAnimation" />
+
+    <TextView
+        android:id="@+id/dialogLottieDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Description"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/dialogLottieTitle"
+        app:layout_constraintStart_toStartOf="@+id/dialogLottieTitle"
+        app:layout_constraintTop_toBottomOf="@+id/dialogLottieTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

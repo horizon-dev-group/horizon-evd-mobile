@@ -1,0 +1,42 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¼Øûì
+=
+java:S1168‹"&Return an empty array instead of null.(¥¹ï
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ì§
+t
+java:S1488…"]Immediately return this expression instead of assigning it to the temporary variable "bytes".(ñî×Æ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¦¯Üşÿÿÿÿ
+2
+java:S1643u"Use a StringBuilder instead.(¼ï×È
+T
+java:S3034“">Prevent "int" promotion by adding "& 0xff" to this expression.(¹„t
+o
+java:S2293`"YReplace the type specification in this constructor call with the diamond operator ("<>").(şÖÿ±
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(§Ê®—
+U
+java:S1854"":Remove this useless assignment to local variable "bitLen".(ıìœğøÿÿÿÿ
+2
+java:S1643y"Use a StringBuilder instead.(¼ï×È
+<
+java:S1168I"&Return an empty array instead of null.(¥¹ï
+8
+java:S2386"Make this member "protected".(Í¯çêøÿÿÿÿ
+O
+java:S1854'":Remove this useless assignment to local variable "bitLen".(ø¿T
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆìÄ
+o
+java:S2293X"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùöôÓ
+u
+java:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(–„Ÿùúÿÿÿÿ
+2
+java:S1643)"Use a StringBuilder instead.(†¹ı
+F
+java:S1481""+Remove this unused "bitLen" local variable.(ıìœğøÿÿÿÿ
+u
+java:S1149b"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+<
+java:S1168R"&Return an empty array instead of null.(¥¹ï

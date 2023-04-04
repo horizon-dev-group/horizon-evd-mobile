@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#349E38"
+    android:paddingStart="16dp"
+    android:paddingLeft="16dp"
+    android:paddingEnd="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="32dp">
+
+    <ImageView
+        android:id="@+id/materialSuccessProgressBar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ic_check_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/materialSuccessDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="-"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/materialSuccessProgressBar"
+        app:layout_constraintStart_toStartOf="@+id/materialSuccessProgressBar"
+        app:layout_constraintTop_toBottomOf="@+id/materialSuccessProgressBar" />
+
+    <TextView
+        android:id="@+id/materialSuccessDialogDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="@color/colorLightWhite"
+        app:layout_constraintEnd_toEndOf="@+id/materialSuccessDialogTitle"
+        app:layout_constraintStart_toStartOf="@+id/materialSuccessDialogTitle"
+        app:layout_constraintTop_toBottomOf="@+id/materialSuccessDialogTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

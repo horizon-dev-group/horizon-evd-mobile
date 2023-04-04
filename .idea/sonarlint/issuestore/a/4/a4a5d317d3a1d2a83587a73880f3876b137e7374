@@ -1,0 +1,11 @@
+
+q
+java:S1450"VRemove the "minimal" field and declare it as a local variable in the relevant methods.(£ùìÂûÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ú…ß÷øÿÿÿÿ
+C
+java:S1068"(Remove this unused "sold" private field.(ìæ÷õûÿÿÿÿ
+F
+java:S1068"+Remove this unused "minimal" private field.(£ùìÂûÿÿÿÿ
+B
+java:S1068",Remove this unused "advanced" private field.(‰òË£

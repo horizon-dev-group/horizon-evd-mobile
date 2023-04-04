@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLightWhite"
+    android:paddingBottom="16dp">
+
+    <EditText
+        android:id="@+id/MyAgentBalanceTransferAmount"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/dialog_money_transfer_amount"
+        android:inputType="number"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/error_dialog_description"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/error_dialog_description"
+        app:layout_constraintTop_toBottomOf="@+id/error_dialog_description" />
+
+    <EditText
+        android:id="@+id/MyAgentBalanceTransferCommission"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_light_white_rounded_dialog"
+        android:ems="10"
+        android:hint="@string/dialog_money_transfer_commission"
+        android:inputType="number"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_page_password"
+        app:layout_constraintEnd_toEndOf="@+id/error_dialog_description"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/error_dialog_description"
+        app:layout_constraintTop_toBottomOf="@+id/MyAgentBalanceTransferAmount" />
+
+    <!--    <com.github.willena.phoneinputview.PhoneInputView-->
+    <!--        android:id="@+id/phoneId"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:background="@drawable/bg_light_white_rounded_dialog"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/MyAgentBalanceTransferCommission"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/MyAgentBalanceTransferCommission"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/MyAgentBalanceTransferCommission" />-->
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/MyAgentBalanceTransferAmount"
+        app:layout_constraintStart_toStartOf="@+id/MyAgentBalanceTransferAmount"
+        app:layout_constraintTop_toTopOf="@+id/MyAgentBalanceTransferAmount"
+        app:srcCompat="@drawable/ic_dollar_coin" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/MyAgentBalanceTransferCommission"
+        app:layout_constraintStart_toStartOf="@+id/MyAgentBalanceTransferCommission"
+        app:layout_constraintTop_toTopOf="@+id/MyAgentBalanceTransferCommission"
+        app:srcCompat="@drawable/ic_percentage" />
+
+    <TextView
+        android:id="@+id/error_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/dialog_money_transfer_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/error_dialog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dialog_money_transfer_description"
+        app:layout_constraintEnd_toEndOf="@+id/error_dialog_title"
+        app:layout_constraintStart_toStartOf="@+id/error_dialog_title"
+        app:layout_constraintTop_toBottomOf="@+id/error_dialog_title" />
+
+    <Button
+        android:id="@+id/MyAgentBalanceTransferBtnTransfer"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/dialog_money_transfer_transfer"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/MyAgentBalanceTransferCommission"
+        app:layout_constraintTop_toBottomOf="@+id/MyAgentBalanceTransferCommission" />
+
+    <Button
+        android:id="@+id/MyAgentBalanceTransferBtnCancel"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/dialog_cancel"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/MyAgentBalanceTransferCommission"
+        app:layout_constraintTop_toBottomOf="@+id/MyAgentBalanceTransferCommission" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

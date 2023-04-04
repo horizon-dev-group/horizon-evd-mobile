@@ -1,0 +1,29 @@
+
+X	java:S125("<This block of commented-out lines of code should be removed.(Ì¥ˆö8Ñè·¼ð.
+r	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê„Ãúÿÿÿÿ8Œ‰šÖæ.
+r	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆî—©þÿÿÿÿ8ž˜£Öæ.
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™™€¢8ËòµÖæ.
+]	java:S125$"<This block of commented-out lines of code should be removed.(À´Éßûÿÿÿÿ8Ñè·¼ð.
+l	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÒr8à–ìÖæ.
+q
+java:S1128"VRemove this unused import 'com.example.highlightevd.classes.model.VoucherTransaction'.(‰ÆæÈüÿÿÿÿ
+m	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È‰¦¼8ç€ñÕæ.
+y
+java:S1128"^Remove this unused import 'com.example.highlightevd.classes.model.VoucherTransactionResponse'.(üš ¨ûÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'okhttp3.RequestBody'.(ýÂÂöûÿÿÿÿ
+N
+java:S1128!"3Remove this unused import 'retrofit2.http.PartMap'.(žôªšûÿÿÿÿ
+`
+java:S1128">Remove this unused import 'android.content.pm.PackageManager'.(€®¥õÿÿÿÿÿ8‘¥ëÕæ.
+A
+java:S1128"+Remove this unused import 'retrofit2.Call'.(Çö÷›
+X	java:S125+"<This block of commented-out lines of code should be removed.(¹¬œ8»Œåþø.
+r	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‚íßþÿÿÿÿ8³îè.
+m	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úùô±8¡‘çÖæ.
+r	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ŽåÅûÿÿÿÿ8ŽñŽÖæ.
+r	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å§—Äþÿÿÿÿ8‘ùÂÖæ.
+P
+java:S1128"5Remove this unused import 'retrofit2.http.Multipart'.(ù«÷åþÿÿÿÿ

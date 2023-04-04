@@ -1,0 +1,45 @@
+
+L
+java:S1068"/Remove this unused "cardFifteen" private field.(ò¨‰Õ8’ÆÔÅ÷.
+x
+java:S1128"[Remove this unused import 'com.example.highlightevd.ui.Printer.bluetooth.BlueToothPrinter'.(şÔìÙ8ş†×Å÷.
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(¨»È†8¾¶åÅ÷.
+]	java:S110"<This class has 9 parents which is greater than 5 authorized.(à‚şıúÿÿÿÿ8’ÆÔÅ÷.
+h
+java:S1192("KDefine a constant instead of duplicating this literal "PIN_NUMBER" 3 times.(¨Ä¹Ä8ÃÆğÅ÷.
+L
+java:S1659"/Declare "bluetooth_printer" on a separate line.(À Œ¼8’ÆÔÅ÷.
+u	java:S116"YRename this field "device_printer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À Œ¼8’ÆÔÅ÷.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ÚàÛ¬ÿÿÿÿÿ8¾¶åÅ÷.
+I
+java:S1068",Remove this unused "cardFive" private field.(ò¨‰Õ8’ÆÔÅ÷.
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(¤ÜëÜÿÿÿÿÿ8¾¶åÅ÷.
+I
+java:S1659"'Declare "pinNumber" on a separate line.(„½ııÿÿÿÿ8ÚÖæÅ÷.
+n
+java:S1192&"LDefine a constant instead of duplicating this literal "EXPIRY_DATE" 3 times.(¾ä¢âøÿÿÿÿ8ÃÆğÅ÷.
+g
+java:S1192#"JDefine a constant instead of duplicating this literal "printType" 3 times.(¡¸…æ8ÃÆğÅ÷.
+F
+java:S1659")Declare "cardFifteen" on a separate line.(ò¨‰Õ8’ÆÔÅ÷.
+~
+java:S1488;"\Immediately return this expression instead of assigning it to the temporary variable "type".(º…·÷øÿÿÿÿ8¾¶åÅ÷.
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(¬“Ñòıÿÿÿÿ8¾¶åÅ÷.
+B
+java:S1659"%Declare "cardTen" on a separate line.(ò¨‰Õ8’ÆÔÅ÷.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Àıêùÿÿÿÿ
+J
+java:S1659"(Declare "expiryDate" on a separate line.(„½ııÿÿÿÿ8ÚÖæÅ÷.
+u
+java:S1128"XRemove this unused import 'com.example.highlightevd.ui.Printer.sunmi.v2.SunmiV2Printer'.(»¡ÊÜ8¥¤êÅ÷.
+H
+java:S1068"+Remove this unused "cardTen" private field.(ò¨‰Õ8’ÆÔÅ÷.
+L
+java:S1659"*Declare "serialNumber" on a separate line.(„½ııÿÿÿÿ8ÚÖæÅ÷.
+x	java:S116"\Rename this field "bluetooth_printer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À Œ¼8’ÆÔÅ÷.
+p
+java:S1192'"NDefine a constant instead of duplicating this literal "SERIAL_NUMBER" 3 times.(•óŠÂüÿÿÿÿ8ÃÆğÅ÷.
+i
+java:S1192%"GDefine a constant instead of duplicating this literal "AMOUNT" 3 times.(Šß°øûÿÿÿÿ8ÃÆğÅ÷.
+~
+java:S1488B"\Immediately return this expression instead of assigning it to the temporary variable "type".(­‘¹Öşÿÿÿÿ8¾¶åÅ÷.

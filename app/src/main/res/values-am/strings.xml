@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--region App Level Strings-->
+    <string name="app_level_full_name">ሙሉ ስም</string>
+    <string name="screen_text_to">ወደ</string>
+    <string name="screen_text_from">ከ</string>
+    <string name="screen_text_your_trip">ጉዞዎ</string>
+    <string name="screen_text_departure_date">የመነሻ ቀን</string>
+    <string name="screen_text_departure_time">የመነሻ ሰዓት</string>
+    <string name="screen_text_departure_date_value">ዲዲ / ወባ / ዓመት</string>
+    <string name="screen_text_departure_time_value">ሰአት</string>
+    <!--endregion-->
+
+    <!--region App Intro-->
+    <string name="app_intro_slide_1_title">ፊባዝ ኢ.ቪ.ዲ</string>
+    <string name="app_intro_slide_1_description">በኢትዮጵያ በጣም ፈጣኑ እና ደህንነቱ የተጠበቀ የኤሌክትሮኒክስ ቫውቸር ስርጭት መተግበሪያ።</string>
+
+    <string name="app_intro_slide_2_title">ፈጣን</string>
+    <string name="app_intro_slide_2_description">ፊባዝ ኢ.ቪ.ዲ በጣም ፈጣን ነው። እንደውም ከማንኛውም ሌላ የኢ.ቪ.ዲ መተግበሪያ የበለጠ ፈጣን ነው።</string>
+
+    <string name="app_intro_slide_3_title">የላቀ አቅም</string>
+    <string name="app_intro_slide_3_description">ፊባዝ ኢ.ቪ.ዲ የበለጠ ምርታማ መሆን እንዲችሉ የሚረዱዎት እጅግ በጣም ብዙ አስደሳች ገፅታዎች አሉት፡፡</string>
+
+    <string name="app_intro_slide_4_title">ደህንነቱ የተጠበቀ</string>
+    <string name="app_intro_slide_4_description">ፊባዝ ኢ.ቪ.ዲ ከ ሳይበር ጥቃቶች ይጠብቀዎታል! አዎ! ስለ ደህንነት መጨነቅ አያስፈልግዎትም!</string>
+
+    <string name="app_intro_slide_5_title">በርካታ ቋንቋዎች</string>
+    <string name="app_intro_slide_5_description">ፊባዝ ኢ.ቪ.ዲ የተለያዩ ቋንቋዎችን በውስጡ አካቷል። ስለዚህ በቀላሉ በእራስዎ ቋንቋ  ሊጠቀሙበት ይችላሉ!</string>
+
+    <!--endregion-->
+
+    <!--region Drawer-->
+    <string name="drawer_side_menu_dashboard_title">ዳሽቦርድ</string>
+    <string name="drawer_side_menu_logout_title">ውጣ</string>
+    <string name="drawer_side_menu_my_account_title">የግል መረጃዎቼ
+  </string>
+    <string name="drawer_side_menu_settings_title">ማስተካከያዎች</string>
+    <string name="drawer_side_menu_transactions_title">ግብይቶች</string>
+    <string name="drawer_side_menu_vouchers_title">ቫውቸሮች</string>
+    <string name="drawer_side_menu_bank_title">ባንክ</string>
+
+    <!--endregion-->
+
+    <!--region Login Screen-->
+    <string name="login_screen_copyright_notice">በ ሆራይዘንቴክ™ የተሰራ የቅጂ መብት © ሆራይዘንቴክ™ 2012</string>
+    <string name="login_screen_app_title">ፊ\u0020\u0020\u0020\u0020ባ\u0020\u0020\u0020\u0020ዝ</string>
+    <string name="login_screen_motto">ኢ\u0020\u0020\u0020\u0020ቪ\u0020\u0020\u0020\u0020ዲ</string>
+
+    <string name="login_screen_btn_login">ግባ</string>
+    <string name="login_screen_input_login_instruction">ለመግባት ኢሜይል እና የይለፍ ቃሎን ያስገቡ።</string>
+    <string name="login_screen_input_user_id_hint">ኢሜይል</string>
+    <string name="login_screen_input_password_hint">የይለፍ ቃል</string>
+    <!--endregion-->
+
+    <!--region Home Screen-->
+    <string name="home_screen_logo_text">ፊባዝ ኢንቨስትመንት</string>
+    <string name="home_screen_side_bar_info">የ ቶታል ቴክ ኤጀንት</string>
+
+    <string name="home_screen_dashboard_menu_item_voucher">ቫውቸር</string>
+    <string name="home_screen_dashboard_menu_item_voucher_description">የቫውቸር ሽያጭ</string>
+
+    <string name="home_screen_dashboard_menu_item_topup">ይሙሉ</string>
+    <string name="home_screen_dashboard_menu_item_topup_description">የይሙሉ አገልግሎት</string>
+
+    <string name="home_screen_dashboard_menu_item_electricity_bill">ገንዘብ</string>
+    <string name="home_screen_dashboard_menu_item_electricity_bill_description">የተላለፈ ገንዘብ</string>
+
+    <string name="home_screen_dashboard_menu_item_water_bill">ግብይት</string>
+    <string name="home_screen_dashboard_menu_item_water_bill_description">የቫውቸር ግብይት</string>
+
+    <string name="home_screen_dashboard_menu_item_activity">የወረዱ</string>
+    <string name="home_screen_dashboard_menu_item_activity_description">የወረዱ ቫውቸሮች</string>
+
+    <string name="home_screen_dashboard_menu_item_withdraw">እንቅስቃሴ</string>
+    <string name="home_screen_dashboard_menu_item_withdraw_description">እንቅስቃሴ</string>
+    <!--endregion-->
+
+    <!--region e voucher Screen-->
+    <string name="e_voucher_screen_text_balance">Balance</string>
+    <string name="e_voucher_screen_text_balance_price">270</string>
+    <string name="e_voucher_screen_text_balance_currency">Birr</string>
+    <string name="e_voucher_screen_text_cards">Cards</string>
+    <string name="e_voucher_screen_text_five">5</string>
+    <string name="e_voucher_screen_text_two_hundred_fifty">250</string>
+
+    <string name="e_voucher_screen_text_ten">10</string>
+    <string name="e_voucher_screen_text_fifteen">15</string>
+    <string name="e_voucher_screen_text_twenty_five">25</string>
+    <string name="e_voucher_screen_text_fifty">50</string>
+    <string name="e_voucher_screen_text_hundred">100</string>
+    <string name="e_voucher_screen_text_five_hundred">500</string>
+    <string name="e_voucher_screen_text_one_thousand">1000</string>
+    <string name="e_voucher_screen_text_button_plus">+</string>
+    <string name="e_voucher_screen_text_button_minus">-</string>
+
+    <string name="e_voucher_screen_text_summary">Summary</string>
+    <string name="e_voucher_screen_text_quantity">Quantity</string>
+    <string name="e_voucher_screen_text_sub_total">Sub Total</string>
+    <string name="e_voucher_screen_text_button_proceed">Proceed</string>
+    <string name="e_voucher_screen_text_total">Total :</string>
+    <!--endregion-->
+
+    <!--region voucher_checkout Screen-->
+    <string name="checkout_screen_text_card">Card</string>
+    <string name="checkout_screen_text_vouchers">Vouchers</string>
+    <!--endregion-->
+    <!--region voucher_checkout Alert Dialog-->
+    <!--endregion-->
+    <!--region bus_ticket Screen -->
+    <string name="bus_ticket_screen_text_bus_ticket">Bus Ticket</string>
+    <string name="bus_ticket_screen_text_bus_transport_provider">Transport Provider</string>
+    <string name="bus_ticket_screen_text_bus_transport_provider_value">Select Transport Provider</string>
+    <string name="bus_ticket_screen_text_bus__bus_number">Bus Number</string>
+    <string name="bus_ticket_screen_text_bus__bus_number_value">No  / Plate No</string>
+
+    <!--endregion-->
+    <!--region train_ticket Screen -->
+    <string name="tarin_ticket_screen_text_train_ticket">Train Ticket</string>
+    <string name="tarin_ticket_screen_text_train_trip_type">Trip Type</string>
+    <string name="train_ticket_screen_text_train_train_number">Train Number</string>
+    <string name="train_ticket_screen_text_train_train_number_value">Train No</string>
+    <!--endregion-->
+    <!--region transaction_history_item_layout-->
+    <string name="transaction_history_item_layout_text_status_success">Success</string>
+    <string name="transaction_history_item_layout_text_transac_main_type_VoucherSale">VoucherSale</string>
+    <string name="transaction_history_item_layout_text_credit_plus">Credited</string>
+
+    <!--endregion-->
+
+    <!--region New Home-->
+    <string name="home_bottom_nav_1">ካርዶች</string>
+    <string name="home_bottom_nav_2">ኤጀንቶች</string>
+    <string name="home_bottom_nav_3">የገንዘብ ዝውውሮች</string>
+    <string name="home_bottom_nav_4">ሪፖርቶች</string>
+    <!--endregion-->
+
+    <!--region Common-->
+    <string name="coming_soon">በቅርብ ቀን!</string>
+    <string name="default_currency">ብር</string>
+    <string name="default_currency_short">ብር</string>
+    <string name="current_balance">ቀሪ ሒሳብ</string>
+    <string name="updating_balance">በማዘመን ላይ</string>
+    <string name="balance_updated">ሂሳቦ ዘምኗል</string>
+    <string name="unable_to_update_balance_upper">ቀሪ ሂሳቦን ማግኘት አልተቻለም</string>
+    <string name="unable_to_get_balance">ሂሳቦን ማግኘት አልተቻለም.</string>
+    <string name="dialog_success">ተሳክቷል!</string>
+    <string name="dialog_confirmation">ማረጋገጫ</string>
+    <string name="dialog_warning">ማስጠንቀቂያ</string>
+    <string name="dialog_error">ስህተት</string>
+    <string name="dialog_yes">አዎ</string>
+    <string name="dialog_no">አይ</string>
+    <string name="dialog_okay">እሺ</string>
+    <string name="dialog_create">ፍጠር</string>
+    <string name="dialog_cancel">አጥፋ</string>
+    <string name="dialog_update">አዘምን</string>
+    <string name="enter_valid_number">እባክህ ትክክለኛ ቁጥር አስገባ</string>
+    <string name="someting_went_worong">የሆነ ስህተት ተከስቷል</string>
+    <string name="unable_to_update">ማደስ አልተቻለም</string>
+    <string name="server_error">የሰርቨር ችግር</string>
+    <string name="server_error_long">የሰርቨር ችግር! እባክዎ የሲስተም አስተዳዳሪዎችን ያግኙ።.</string>
+    <!--endregion-->
+
+    <!--region Bluetooth Related-->
+    <string name="network_connected">ተገናኝቷል</string>
+    <string name="network_offline">ከመስመር ውጭ</string>
+
+    <string name="bluetooth_prinet_not_supported">የብሉቱዝ ማተሚያ አይቀበልም!</string>
+    <string name="turn_on_bluetooth">ብሉቱዞን ያብሩ</string>
+    <string name="bluetooth_off">ብሉቱዝ ጠፍቷል</string>
+    <string name="bluetooth_printer_connected">ማተሚያው ተገናኝቷል</string>
+    <string name="bluetooth_printer_disconnected">ማተሚያው ግንኙነቱ ተቋርጧል</string>
+    <string name="select_bluetooth_device">የብሉቱዝ መሣሪያን ይምረጡ</string>
+    <string name="select_printer">ማተሚያ ይምረጡ</string>
+    <string name="select_printer_upper">ማተሚያ ይምረጡ</string>
+    <string name="currently_printing">በማተም ላይ</string>
+    <string name="unable_to_connect_to_printer">ከማተሚያው ጋር መገናኘት አልተቻለም</string>
+    <string name="check_bluetooth_connection">እባክዎን የብሉቱዝ ግንኙነትን ይፈትሹ</string>
+    <string name="broken_connection">እባክዎን የብሉቱዝ ግንኙነትን ይፈትሹ</string>
+    <string name="connect_device">እባክዎን የብሉቱዝ ግንኙነትን ይፈትሹ</string>
+    <string name="already_selected_printer">አስቀድመው ማተሚያ መርጠዋል</string>
+    <string name="connected_to_printer">ከ %1$s ማተሚያ ጋር ተገናኝቷል</string>
+    <string name="connected_to_printer_capital">የተገናኘው ማተሚያ: %1$s</string>
+    <string name="connected_to_printer_title">ከ %1$s ማተሚያ ጋር ተገናኝቷል</string>
+    <string name="no_device_connected">ምንም ስልክ አልተገናኘም</string>
+    <string name="connected_to_printer_desc">አስቀድመው አገናኝተዋል ከ %1$s ማተሚያ ጋር.</string>
+    <string name="does_not_support_bt">ስልኮ ብሉቱዝን አይደግፍም.</string>
+    <string name="turn_on_bluetooth_first">እባክዎ መጀመሪያ ብሉቱዝን ያብሩ.</string>
+    <!--endregion-->
+
+    <!--    region Vouchers Page-->
+    <string name="five_birr_voucher">5 ብር</string>
+    <string name="ten_birr_voucher">10 ብር</string>
+    <string name="fifteen_birr_voucher">15 ብር</string>
+    <string name="twentyfive_birr_voucher">25 ብር</string>
+    <string name="fifty_birr_voucher">50 ብር</string>
+    <string name="hunderd_birr_voucher">100 ብር</string>
+    <string name="twohundredfifty_birr_voucher">250 ብር</string>
+    <string name="fivehundred_birr_voucher">500 ብር</string>
+    <string name="thousand_birr_voucher">1000 ብር</string>
+
+    <string name="voucher_selected">ካርድ ተመርጧል</string>
+    <string name="vouchers_selected">ካርዶች ተመርጠዋል</string>
+
+    <string name="print_warning_1">እርግጠኛ ኖት %1$s ካርዶችን ማተም ይፈልጋሉ?</string>
+    <string name="printing_vouchers">%1$s ካርዶችን በማተም ላይ</string>
+    <string name="no_vouchers">ካርዶች የሉም</string>
+
+    <string name="vouchers_overprint_warning_250">እውነት ባለ 250ብር ካርድ ማተም ይፈልጋሉ?</string>
+    <string name="vouchers_overprint_warning_500">እውነት ባለ 500ብር ካርድ ማተም ይፈልጋሉ?</string>
+    <string name="vouchers_overprint_warning_1000">እውነት ባለ 1000ብር ካርድ ማተም ይፈልጋሉ?</string>
+
+    <string name="amount_should_not_be_empty">መጠኑ ባዶ መሆን የለበትም</string>
+    <string name="amount_should_not_exceed">መጠኑ ከ 500 መብለጥ የለበትም ወይም 0 መሆን የለበትም</string>
+
+    <string name="airtime">አየር ሰአት</string>
+    <string name="send_airtime">አየር ሰአት ሙላ</string>
+    <string name="airtime_limit_is_1"> ለአየር ሰአት መጠኑ 1 መሆን አለበት</string>
+
+    <string name="please_select_printer_and_quantitiy">ለመቀጠል እባክዎ ማተሚያ እና ብዛትን ይምረጡ</string>
+    <string name="print_quantity">ብዛት</string>
+    <string name="print">አትም</string>
+    <string name="download">አውርድ</string>
+    <!--    endregion-->
+
+    <!--***** region MY AGENTS *****-->
+    <string name="my_agnets_page_title">ኤጀንቶቼ</string>
+    <string name="my_agnets_agents">ኤጀንቶች</string>
+    <string name="my_agnets_total_users">አጠቃላይ ኤጀንቶች</string>
+    <string name="my_agnets_name_required">ስም መሞላት አለበት እናም ቢያንስ 4 ቁምፊዎች (ካራክተር) መሆን አለበት።</string>
+    <string name="my_agnets_enter_valid_phone">እባክዎ ትክክለኛ ስልክ ቁጥር ያስገቡ።</string>
+    <string name="my_agnets_enter_valid_password">እባክዎ ትክክለኛ የይለፍ ቃል ያስገቡ።</string>
+    <string name="my_agnets_enter_valid_password_length">የይለፍ ቃል ቁምፊ (ካራክተር) ርዝመት ከ 4 ያነሰ መሆን የለበትም.</string>
+    <string name="my_agnets_password_should_match">የይለፍ ቃል ማረጋገጫ ከይለፍ ቃል ጋር መመሳሰል አለበት።</string>
+    <string name="my_agnets_you_dont_have_agents">ምንም ኤጀንቶች የሉዎትም።</string>
+    <string name="my_agnets_agent_registered">ኤጀንት በተሳካ ሁኔታ ተመዝግቧል።</string>
+    <string name="my_agnets_user_exists">ኤጀንቱ ቀድሞውኑ ተመዝግቧል።</string>
+    <string name="my_agents_agents_with_zero_balance">ቀሪ ሂሳብ 0 የሆነባቸው ኤጀንቶች: 3</string>
+    <string name="my_agents_actively_selling">በብዛት እየሸጡ ያሉ ኤጀንቶች: 0</string>
+    <string name="my_agents_create_new_agent_title">አዲስ ኤጀንት ፍጠር</string>
+    <string name="my_agents_create_new_agent_description">የ ኤጀንቱን ሙሉ ስም፣ ስልክ፣ እና የይለፍ ቃል ያስገቡ።</string>
+    <string name="my_agents_full_name">የኤጀንቱ ሙሉ ስም</string>
+    <string name="my_agents_phone">ስልክ</string>
+    <string name="my_agents_password">የይለፍ ቃል</string>
+    <string name="my_agents_confirm_password">የይለፍ ቃል ማረጋገጫ</string>
+    <string name="my_agents_search_hint">ፈልግ</string>
+
+    <string name="my_agents_agent_list_registered_on">የተመዘገቡበት ቀን:</string>
+
+    <string name="my_agents_update_agent_title">ኤጀንት አዘምን</string>
+    <string name="my_agents_update_agent_description">ኤጀንቱን ለማዘመን የኤጀንቱን የታደሰ ስም እና ስልክ ያስገቡ።</string>
+    <string name="my_agents_successfully_updated">ኤጀንቱ ታድሷል።</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Money Transfer *****-->
+    <string name="dialog_money_transfer_title">ሂሳብ አዘዋውር</string>
+    <string name="dialog_money_transfer_description">እባኮን የዝውውር መጠን እና የኮሚሽን መጠን ያስገቡ።.</string>
+    <string name="dialog_money_transfer_amount">የገንዘብ መጠን</string>
+    <string name="dialog_money_transfer_commission">ኮሚሽን % (አማራጭ)</string>
+    <string name="dialog_money_transfer_transfer">አስተላልፍ</string>
+    <string name="dialog_money_transfer_success">%1$s ብር በተሳካ ሁኔታ አስተላልፈዋል።</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Fund Deduction *****-->
+    <string name="fund_deduction_successful">የዝውውር ቅነሳ ስኬታማ ነበር.</string>
+    <string name="fund_deduction_unable_to_deduct">መቀነስ አልተቻለም። ተጠቃሚ በቂ ቀሪ ሂሳብ የለውም.</string>
+    <!--***** endregion *****-->
+
+    <!--***** region User Profile *****-->
+    <string name="user_profile_title">የተጠቃሚ መገለጫ</string>
+    <string name="user_profile_account_balance">ቀሪ ሒሳብ</string>
+    <string name="user_profile_phone_number">ስልክ ቁጥር</string>
+    <string name="user_profile_transfers">ዝውውሮች</string>
+    <string name="user_profile_transaction_history">የግብይት ታሪክ</string>
+    <string name="user_profile_more">ተጨማሪ</string>
+    <string name="user_profile_total_transaction">ጠቅላላ ዝውውር:</string>
+    <string name="user_profile_no_transaction">ምንም አይነት ዝውውር የለዎትም:</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Revert Transaction *****-->
+    <string name="revert_transaction_title">ዝውውሩን ቀንስ</string>
+    <string name="revert_transaction_description">ከዚህ ዝውውር የሚመለስበትን መጠን ያስገቡ።</string>
+    <string name="revert_transaction_max_deductable">ከፍተኛ ተቀናሽ</string>
+    <string name="revert_transaction_user_balance">የተጠቃሚው ቀሪ ሒሳብ</string>
+    <string name="revert_transaction_amount_to_deduct">የሚቀነስ መጠን</string>
+    <string name="revert_transaction_deduct">ቀንስ</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Fund Transaction History *****-->
+    <string name="fund_transaction_sent_today_empty">ዛሬ የተላከ: -</string>
+    <string name="fund_transaction_sent_today_value">ዛሬ የተላከ: %1$s ብር.</string>
+    <string name="fund_transaction_received_today_empty">ዛሬ የተቀበሉት: -</string>
+    <string name="fund_transaction_received_today_value">ዛሬ የተቀበሉት: %1$s ብር.</string>
+    <string name="fund_transaction_received">የተቀበሉት</string>
+    <string name="fund_transaction_sent">የላኩት</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Transaction Item *****-->
+    <string name="transaction_item_date">ቀን: %1$s</string>
+    <string name="transaction_item_deducted_by_you">የተቀነሰው በ: %1$s (እርሶ)</string>
+    <string name="transaction_item_deducted_by">የተቀነሰው በ: %1$s</string>
+    <string name="transaction_item_amount_deducted">%1$s ብር. ተቀንሷል</string>
+
+    <string name="transaction_item_positive_amount">+ %1$s ብር.</string>
+    <string name="transaction_item_nagative_amount">- %1$s ብር.</string>
+
+    <string name="transaction_item_sent_to">የተላከዉ ለ: %1$s</string>
+    <string name="transaction_item_received_from">የተቀበለው ከ: %1$s</string>
+    <string name="transaction_item_deductable">የሚቀነስ: %1$s</string>
+    <string name="transaction_item_deduction_successful_item">የዝውውር ቅነሳ ስኬታማ ነበር።</string>
+    <string name="transaction_item_deduction_cant_deduct">መቀነስ አይችሉም። የተቀናሽዎ መጠን ከዝውውሩ መጠን መብለጥ የለበትም።</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Fund Request *****-->
+    <string name="fund_request_total_upper">ጠቅላላ የፈንድ ጥያቄ</string>
+    <string name="fund_request_total_lower">ጠቅላላ የፈንድ ጥያቄዎች: 0</string>
+    <string name="fund_request_approved">የጸደቁ የገንዘብ መጠየቂያዎች: 0</string>
+
+    <string name="dialog_fund_request_title">የፈንድ ጥያቄ</string>
+    <string name="dialog_fund_request_description">ፈንድ ለመጠየቅ ሁሉንም አስፈላጊ ዝርዝሮች ያስገቡ.</string>
+    <string name="dialog_fund_request_request_amount">የጥያቄ መጠን</string>
+    <string name="dialog_fund_request_bank_name">የባንክ ስም</string>
+    <string name="dialog_fund_request_transaction_reference_no">የዝውውር ማጣቀሻ ቁጥር.</string>
+    <string name="dialog_fund_request_crv_no">ሲ.አር.ቪ ቁጥር.</string>
+    <string name="dialog_fund_request_remark">ማስታወሻ</string>
+    <string name="dialog_fund_request_request">ጠይቅ</string>
+
+    <string name="dialog_fund_request_sent_title">የፈንድ ጥያቄ ተልኳል።!</string>
+    <string name="dialog_fund_request_sent">የፈንድ ጥያቄ በተሳካ ሁኔታ ተልኳል።</string>
+    <string name="dialog_fund_request_unable_to_create_request">የፈንድ ጥያቄ መላክ አልተቻለም።</string>
+    <string name="dialog_fund_request_you_dont_have_any_requests">ምንም ጥያቄ የለዎትም።</string>
+    <string name="dialog_fund_option_bank">ባንክ</string>
+    <string name="dialog_fund_option_cash">ጥሬ ገንዘብ</string>
+    <string name="dialog_fund_amount_cannot_be_negative">መጠኑ ከዜሮ ሊያንስ አይችልም.</string>
+    <string name="dialog_fund_amount_cannot_exceed_25000000">መጠኑ ከ25,000,00 ብር መብለጥ አይችልም።</string>
+    <string name="dialog_fund_amount_cannot_be_empty">የባንክ ስም ባዶ ሊሆን አይችልም።</string>
+    <string name="dialog_fund_trans_ref_num_has_to_be_3_chars">የዝውውር ማመሳከሪያ ቁጥር ቢያንስ 3 ቁምፊዎች(ካራክተሮች) መሆን አለበት።</string>
+    <string name="dialog_fund_crv_num_has_to_be_3_chars">የሲአርቪ ቁጥር ቢያንስ 3 ቁምፊዎች(ካራክተሮች) መሆን አለበት።</string>
+    <string name="dialog_fund_remark_has_to_be_5_chars">ማስታወሻ ቢያንስ 5 ቁምፊዎች(ካራክተሮች) መሆን አለበት።</string>
+
+    <string name="fund_request_sent_from_to">የተላከው ከ: %1$s ለ ሴልስ</string>
+    <!--***** endregion *****-->
+
+    <!--***** region Setting *****-->
+    <string name="setting_title">ማስተካከያዎች</string>
+    <string name="setting_restart_to_see_change">የቋንቋ ለውጥ ለማየት እባክዎ መተግበሪያውን እንደገና ያስጀምሩት።</string>
+    <string name="setting_enter_new_password">አዲስ የይለፍ ቃል</string>
+    <string name="setting_home_page">መነሻ ገጽ</string>
+    <string name="setting_easy_home_page">ቀላል መነሻ ገጽ</string>
+    <string name="setting_language">ቋንቋ</string>
+    <string name="setting_pick_language">ቋንቋዎን ይምረጡ</string>
+    <string name="setting_printer">ማተሚያ</string>
+
+
+    <string name="setting_large_printer">ትልቅ  ማተሚያ</string>
+    <string name="setting_large_printer_desc">የብሉቱዝ ማተሚያዎ ትልቅ ከሆነ ይህን አማራጭ ይምረጡ.</string>
+    <string name="setting_bluetooth_device">የብሉቱዝ መሣሪያን ይምረጡ</string>
+    <string name="setting_bluetooth_device_desc">የብሉቱዝ ማተሚያ የሚጠቀሙ ከሆነ ይህን አማራጭ ይምረጡ.</string>
+
+    <string name="setting_fund_transactions">የፈንድ ዝዉዉሮች</string>
+    <string name="setting_show_deducted_transactions">የተቀነሱ ዝዉዉሮችን አሳይ</string>
+    <string name="setting_show_deducted_transactions_desc">የተቀነሱ ዝዉዉሮችን ማየት ከፈለጉ ይህንን አማራጭ ይምረጡ።</string>
+    <string name="setting_change_password">የሚስጥር ቁልፍ ይቀይሩ</string>
+    <string name="setting_old_password">የድሮ የይለፍ ቃል</string>
+    <!--***** endregion *****-->
+</resources>

@@ -1,0 +1,30 @@
+
+f
+java:S1128"PRemove this unused import 'com.example.highlightevd.classes.state.StateManager'.(·‚¶â
+C
+java:S1604@"(Make this anonymous inner class a lambda(—û°šýÿÿÿÿ
+`
+java:S1128">Remove this unused import 'android.content.pm.PackageManager'.(€®¥õÿÿÿÿÿ8»ÀæÖæ.
+P
+java:S1128 ".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8»ÀæÖæ.
+€	java:S1164"fRename this field "my_statement_screen_toolbar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¤ŸÅÿÿÿÿÿ
+D
+java:S1128)".Remove this unused import 'okhttp3.MediaType'.(¢¿ÜŠ
+W
+java:S1128"ARemove this unused import 'androidx.core.app.NotificationCompat'.(œéÔã
+Z	java:S106s"9Replace this use of System.out or System.err by a logger.(ã¨†½øÿÿÿÿ8Þ²ëÀå.
+Q	java:S1100"<This class has 9 parents which is greater than 5 authorized.(¹Òæ
+j
+java:S1128"ORemove this unused import 'com.example.highlightevd.ui.history.ServiceHistory'.(Ô¯å¦üÿÿÿÿ
+Ÿ
+java:S1186‰"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×ÝŠÎ8Þ²ëÀå.
+K
+java:S1128*"0Remove this unused import 'okhttp3.RequestBody'.(ýÂÂöûÿÿÿÿ
+Z	java:S106q"9Replace this use of System.out or System.err by a logger.(ã¨†½øÿÿÿÿ8Þ²ëÀå.
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(Ðø¸°ýÿÿÿÿ8Þ²ëÀå.
+•
+java:S1128"zRemove this unused import 'com.example.highlightevd.ui.transaction.adapters.transactionHistory.TransactionHistoryAdapter'.(ô†­ˆúÿÿÿÿ
+ž
+java:S1186f"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤8Þ²ëÀå.
+Z
+java:S1128"DRemove this unused import 'com.example.highlightevd.ui.login.Login'.(×‘…¶

@@ -1,0 +1,21 @@
+
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(Ó¾¿­ùÿÿÿÿ
+|
+java:S1128"aRemove this unused import 'com.example.highlightevd.ui.Printer.telpo.v330.Telpo330PrinterStatic'.(¯ğçİüÿÿÿÿ
+q
+java:S1128"[Remove this unused import 'com.example.highlightevd.ui.Printer.telpo.v330.Telpo330Printer'.(‚ôºÊ
+d
+java:S1128"GRemove this unused import 'com.example.highlightevd.classes.user.User'.(¦éá±8©Ôú.
+u
+java:S1128"XRemove this unused import 'com.example.highlightevd.ui.Printer.sunmi.v2.SunmiV2Printer'.(»¡ÊÜ8êÌ¤Íú.
+e
+java:S1128"HRemove this unused import 'com.example.highlightevd.ui.voucher.Voucher'.(ûûŠÏ8×Ü¡Íú.
+x
+java:S1128"[Remove this unused import 'com.example.highlightevd.ui.Printer.bluetooth.BlueToothPrinter'.(şÔìÙ8§˜¥Íú.
+C
+java:S1604?"(Make this anonymous inner class a lambda(¯Šóÿÿÿÿÿ
+X	java:S125N"<This block of commented-out lines of code should be removed.(Â¨Òğ8•Ï¥Íú.
+^
+java:S1854B"ARemove this useless assignment to local variable "printerIntent".(÷¦Ë8î× Íú.
+E
+java:S1185p"(Remove this method to simply inherit it.(Ù«µ§8¤ê½µÛ.

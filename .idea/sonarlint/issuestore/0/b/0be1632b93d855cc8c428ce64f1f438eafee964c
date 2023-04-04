@@ -1,0 +1,35 @@
+
+~
+java:S14883"\Immediately return this expression instead of assigning it to the temporary variable "type".(­‘¹Öşÿÿÿÿ8úŸ•·÷.
+L
+java:S1068"/Remove this unused "cardFifteen" private field.(ò¨‰Õ8³˜·÷.
+t
+java:S1450"WRemove the "cardFive" field and declare it as a local variable in the relevant methods.(ò¨‰Õ8³˜·÷.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Àıêùÿÿÿÿ
+w
+java:S1450"ZRemove the "cardFifteen" field and declare it as a local variable in the relevant methods.(ò¨‰Õ8³˜·÷.
+H
+java:S14819"+Remove this unused "intent" local variable.(å¯Ô«8úŸ•·÷.
+]	java:S110"<This class has 9 parents which is greater than 5 authorized.(ß£§‘ÿÿÿÿÿ8×œ‹•÷.
+F
+java:S1659")Declare "cardFifteen" on a separate line.(ò¨‰Õ8³˜·÷.
+H
+java:S1068"+Remove this unused "cardTen" private field.(ò¨‰Õ8³˜·÷.
+~
+java:S1488,"\Immediately return this expression instead of assigning it to the temporary variable "type".(º…·÷øÿÿÿÿ8úŸ•·÷.
+x	java:S116"\Rename this field "bluetooth_printer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À Œ¼8È€«•÷.
+P
+java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8“õ¯•÷.
+u	java:S116"YRename this field "device_printer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À Œ¼8È€«•÷.
+s
+java:S1450"VRemove the "cardTen" field and declare it as a local variable in the relevant methods.(ò¨‰Õ8³˜·÷.
+L
+java:S1659"/Declare "bluetooth_printer" on a separate line.(À Œ¼8È€«•÷.
+I
+java:S1068",Remove this unused "cardFive" private field.(ò¨‰Õ8³˜·÷.
+Z
+java:S11448"8Remove this unused private "getSelectedVouchers" method.(Á•ùÿÿÿÿ8úŸ•·÷.
+B
+java:S1659"%Declare "cardTen" on a separate line.(ò¨‰Õ8³˜·÷.
+W
+java:S18549":Remove this useless assignment to local variable "intent".(å¯Ô«8úŸ•·÷.

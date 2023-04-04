@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nested_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/empty_voucher_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You Don't Have Any Voucher"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/trasnsaction_history_screen_recyclerview"
+                app:layout_constraintEnd_toEndOf="@+id/trasnsaction_history_screen_recyclerview"
+                app:layout_constraintStart_toStartOf="@+id/trasnsaction_history_screen_recyclerview"
+                app:layout_constraintTop_toTopOf="@+id/trasnsaction_history_screen_recyclerview" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/trasnsaction_history_screen_recyclerview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:paddingBottom="85dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

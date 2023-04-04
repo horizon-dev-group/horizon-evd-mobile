@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_default_animated"
+    android:theme="@style/AppTheme">
+
+    <io.ak1.BubbleTabBar
+        android:id="@+id/vouchersBottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:elevation="16dp"
+        android:padding="7dp"
+        app:bubbletab_disabled_icon_color="@color/colorPrimaryDark"
+        app:bubbletab_horizontal_padding="20dp"
+        app:bubbletab_icon_padding="5sp"
+        app:bubbletab_icon_size="20dp"
+        app:bubbletab_menuResource="@menu/home_navigation_items"
+        app:bubbletab_tab_corner_radius="25dp"
+        app:bubbletab_title_size="16sp"
+        app:bubbletab_vertical_padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/vouchersBottomNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/balance_vocuher"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:text="0"
+                android:textAlignment="inherit"
+                android:textColor="@color/colorWhite"
+                android:textSize="65sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.72" />
+
+            <ImageView
+                android:id="@+id/vouchers_back_button"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="32dp"
+                android:padding="11dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_fragment_home_dashboard_hamberger_menu" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="VOUCHERS"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/vouchers_back_button"
+                app:layout_constraintStart_toEndOf="@+id/vouchers_back_button"
+                app:layout_constraintTop_toTopOf="@+id/vouchers_back_button" />
+
+            <TextView
+                android:id="@+id/vouchers_balance_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CURRENT BALANCE"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/balance_vocuher"
+                app:layout_constraintStart_toStartOf="@+id/balance_vocuher" />
+
+            <Switch
+                android:id="@+id/vouchers_single_print_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="SINGLE PRINT"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/vouchers_back_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/vouchers_back_button"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/vouchers_online_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/balance_vocuher"
+                app:layout_constraintTop_toBottomOf="@+id/balance_vocuher" />
+
+            <TextView
+                android:id="@+id/vouchersPrinterStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/vouchers_online_status"
+                app:layout_constraintTop_toBottomOf="@+id/balance_vocuher" />
+
+            <ImageView
+                android:id="@+id/vouchersBluetoothButton"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:padding="10dp"
+                android:tint="#ffffff"
+
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/vouchersTransactionsButton"
+                app:layout_constraintEnd_toStartOf="@+id/vouchersTransactionsButton"
+                app:layout_constraintTop_toTopOf="@+id/vouchersTransactionsButton"
+                app:srcCompat="@drawable/ic_bluetooth" />
+
+            <ImageView
+                android:id="@+id/vouchersSettingButton"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:padding="10dp"
+                android:tint="#ffffff"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/vouchersBluetoothButton"
+                app:layout_constraintEnd_toStartOf="@+id/vouchersBluetoothButton"
+                app:layout_constraintTop_toTopOf="@+id/vouchersBluetoothButton"
+                app:srcCompat="@drawable/ic_drawer_settings" />
+
+            <ImageView
+                android:id="@+id/vouchersTransactionsButton"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:padding="10dp"
+                android:tint="#ffffff"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_clipboard" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="275dp"
+            android:background="@drawable/carditems_bg_top_rounded"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Please tap a card in order to print vouchers."
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Please tap a card in order to print vouchers."
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView91">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_5birr_card"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_5birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_5birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_5birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="5 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_10birr_card"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_10birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_10birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_10birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="10 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_15birr_card"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView11"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_15birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_15birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_15birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="15 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_25birr_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_25birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_25birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_25birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="25 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_50birr_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView13"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_50birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_50birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_50birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="50 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_100birr_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView14"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_100birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_100birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_100birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="100 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_250birr_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView15"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_250birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_250birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_250birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="250 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_500birr_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView16"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_500birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_500birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_500birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="500 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/vouchers_1000birr_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_cards_list_item_rounded"
+                            app:layout_columnWeight="1"
+                            app:layout_gravity="fill"
+                            app:layout_rowWeight="1">
+
+                            <ImageView
+                                android:id="@+id/imageView17"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                app:layout_constraintBottom_toTopOf="@+id/vouchers_1000birr_card_description"
+                                app:layout_constraintEnd_toEndOf="@+id/vouchers_1000birr_card_description"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/ethiotel_icon" />
+
+                            <TextView
+                                android:id="@+id/vouchers_1000birr_card_description"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_cards_list_item_rounded_bottom"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="1000 Birr"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
